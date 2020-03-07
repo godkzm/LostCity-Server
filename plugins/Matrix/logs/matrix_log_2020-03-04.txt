@@ -1,0 +1,29 @@
+(08:27:37) Matrix Enabled!
+(08:27:37) Version: 4.3.4
+(09:14:07) Matrix Enabled!
+(09:14:07) Version: 4.3.4
+(09:34:11) God_KZM failed Fly check | ground spoof (new pattern/pc/flying) (+10) | vl:10 ping:0 TPS:20.0 lp:0 component: fly.gf
+(09:53:50) Matrix Enabled!
+(09:53:50) Version: 4.3.4
+(10:11:12) Matrix Enabled!
+(10:11:12) Version: 4.3.4
+(10:18:31) God_KZM failed HitBox check | missed entity hitbox (entity: skeleton, offset: 1.538) (+1) | vl:1 ping:3 TPS:20.0 lp:1 component: hb.mis
+(10:23:55) Matrix Enabled!
+(10:23:55) Version: 4.3.4
+(10:27:02) God_KZM failed Block check | abort breaking (at: -143.0,66.0,231.0, type: grass) (+0) | vl:0 ping:5 TPS:20.0 lp:2 component: block.abort
+(10:29:48) Matrix Enabled!
+(10:29:48) Version: 4.3.4
+(11:33:27) God_KZM failed Block check | break block too fast (digs: 1/999, hardness: 2.0, block: stone_brick_slab) (+4) | vl:4 ping:2 TPS:19.99 lp:108 component: block.fastbreak.expect
+(11:33:34) God_KZM failed Scaffold check | right click too fast (cps: 44 length: 1001) (+2) | vl:2 ping:2 TPS:20.0 lp:6 component: sfd.clk
+(12:24:06) Matrix Enabled!
+(12:24:06) Version: 4.3.4
+(12:43:23) Matrix Enabled!
+(12:43:23) Version: 4.3.4
+(12:44:48) Matrix Enabled!
+(12:44:48) Version: 4.3.4
+(13:32:27) Matrix Enabled!
+(13:32:27) Version: 4.3.5
+(16:28:09) Matrix Enabled!
+(16:28:09) Version: 4.3.5
+(20:16:23) Matrix Enabled!
+(20:16:23) Version: 4.3.5

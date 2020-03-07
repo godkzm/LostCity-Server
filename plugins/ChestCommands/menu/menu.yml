@@ -1,0 +1,103 @@
+menu-settings:
+  name: "&6&lLostCIty \u4E3B\u83DC\u5355"
+  command: menu
+  rows: 3
+  open-with-item:
+    id: clock
+    item-id: clock
+    left-click: true
+    right-click: true
+item-4-2:
+  POSITION-X: 4
+  POSITION-Y: 2
+  COMMAND: mv tp world_the_end
+  NAME: "&d&l\u70B9\u6211\u4F20\u9001\u5230\u672B\u5730\u4E16\u754C"
+  LORE:
+  - "&d&l\u6CE8\u610F\uFF1A\u672B\u5730\u4E16\u754C\u4E0D\u652F\u6301\u5708\u5730\uFF01"
+  - "&d&l\u672B\u5730\u5916\u5C9B\u73B0\u5DF2\u5F00\u653E\uFF01"
+  ID: ender_pearl
+  DATA-VALUE: 0
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-3-2:
+  POSITION-X: 3
+  POSITION-Y: 2
+  COMMAND: mv tp world_nether
+  NAME: "&c&l\u70B9\u6211\u4F20\u9001\u5230\u5730\u72F1\u4E16\u754C"
+  LORE:
+  - "&c&l\u6CE8\u610F\uFF1A\u5730\u72F1\u4E16\u754C\u4E0D\u652F\u6301\u5708\u5730\uFF01"
+  - "&c&l\u6211\u89C9\u5F97\u5CA9\u6D46\u6FA1\u6216\u8BB8\u5F88\u5408\u9002\uFF01"
+  ID: netherrack
+  DATA-VALUE: 0
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-2-2:
+  POSITION-X: 2
+  POSITION-Y: 2
+  COMMAND: rtp world world
+  NAME: "&a&l\u70B9\u6211\u4F20\u9001\u5230\u751F\u5B58\u4E16\u754C"
+  LORE:
+  - "&a&l\u6CE8\u610F\uFF1A\u751F\u5B58\u4E16\u754C\u4E0D\u652F\u6301\u5708\u5730\uFF01"
+  - "&a&l\u8D70\u5427\uFF0C\u53BB\u611F\u53D7\u5927\u81EA\u7136\u7684\u7F8E\u597D\uFF01"
+  ID: grass_block
+  DATA-VALUE: 0
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-5-2:
+  POSITION-X: 5
+  POSITION-Y: 2
+  COMMAND: rtp world residence
+  NAME: "&6&l\u9886\u5730\u4E16\u754C"
+  LORE:
+  - "&6&l\u4EC5\u8BE5\u4E16\u754C\u5F00\u653E\u5708\u5730\u529F\u80FD\uFF01"
+  - "&6&l\u52AA\u529B\u6210\u4E3A\u623F\u5730\u4EA7\u5546\u5427\uFF01"
+  - "&7&o\u4F7F\u7528\u6728\u68CD\u5708\u5730..."
+  ID: stick
+  DATA-VALUE: 0
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-6-2:
+  POSITION-X: 6
+  POSITION-Y: 2
+  COMMAND: plot auto
+  NAME: "&6&l\u70B9\u6211\u4F20\u9001\u5230\u4F60\u7684\u5730\u76AE"
+  LORE:
+  - "&6&l\u6CA1\u6709\u5730\u76AE\uFF1F"
+  - "&6&l\u8F93\u5165 /plot auto \u9886\u53D6\u4E00\u4E2A\uFF01"
+  - "&6&l\u5982\u679C\u9700\u8981\u5220\u9664\u53EF\u4EE5\u8F93\u5165 /plot delete"
+  ID: dirt
+  DATA-VALUE: 2
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-1-1:
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: "&a&l\u4F60\u597D\uFF01{player}\uFF01"
+  LORE:
+  - "&6&l\u5269\u4F59\u91D1\u94B1: {money} \u5143"
+  ID: player_head
+  DATA-VALUE: 3
+  AMOUNT: 1
+  KEEP-OPEN: true
+item-8-2:
+  POSITION-X: 8
+  POSITION-Y: 2
+  NAME: "&6&l\u60F3\u77E5\u9053\u670D\u52A1\u5668\u73A9\u6CD5\u5417\uFF1F"
+  LORE:
+  - "&6&l\u6211\u4EEC\u7684\u5B98\u65B9Wiki:"
+  - '&6https://wiki.lostcity.top/'
+  ID: book
+  DATA-VALUE: 0
+  AMOUNT: 1
+  KEEP-OPEN: true
+item-9-2:
+  POSITION-X: 9
+  POSITION-Y: 2
+  NAME: "&6&l\u60F3\u77E5\u9053\u6700\u65B0\u8D44\u8BAF\uFF1F"
+  LORE:
+  - "&6&l\u6211\u4EEC\u7684\u5B98\u65B9\u7F51\u7AD9:"
+  - '&6https://www.lostcity.top/'
+  ID: bookshelf
+  DATA-VALUE: 0
+  AMOUNT: 1
+  KEEP-OPEN: true

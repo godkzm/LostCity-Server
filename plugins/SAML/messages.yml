@@ -1,0 +1,67 @@
+#请勿更改版本号!
+version: 2
+
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  冻结消息                                                                                                  |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: freeze_messages
+
+# 发送到控制台的消息.
+#   * %tps% - 冻结时的TPS.
+tps-freeze-start-console: '&cTPS较低(%TPS%). 尝试冻结生物中...'
+
+# 完成冻结时发送到控制台的消息
+#  * %time% - 冻结耗时（单位为毫秒）
+#  * %number_affected% - 冻结或nerf的生物数
+#  * %number_frozen% - 冻结的生物数
+#  * %number_nerfed% - nerf的生物数
+#  * %total_number_affected% - 在所有世界的冻结和/或nerf的生物数.
+#  * %total_number_frozen% - 在所有世界冻结的生物数
+#  * %total_number_nerfed% - 在所有世界nerf的生物数
+#  * %total_number_mobs% - 所有世界总生物数
+tps-freeze-complete-console: '&c已对 %number_affected% 生物进行操作 (冻结：%number_frozen% , nerf：%number_nerfed%)，耗时： %time%ms. 共有 %total_number_affected%/%total_number_mobs% 生物受到影响 (冻结数：%total_number_frozen%,nerf数 %total_number_nerfed%).'
+
+# 发送给拥有saml.notify权限的玩家的消息.
+#   * %tps% - 冻结时的TPS.
+tps-freeze-start-ops: '&cTPS较低(%TPS%). 尝试冻结生物中...'
+
+# 发送给拥有saml.notify权限的玩家的消息.
+#  * %time% - 冻结耗时（单位为毫秒）
+#  * %number_affected% - 冻结或nerf的生物数
+#  * %number_frozen% - 冻结的生物数
+#  * %number_nerfed% - nerf的生物数
+#  * %total_number_affected% - 在所有世界的冻结和/或nerf的生物数.
+#  * %total_number_frozen% - 在所有世界冻结的生物数
+#  * %total_number_nerfed% - 在所有世界nerf的生物数
+#  * %total_number_mobs% - 所有世界总生物数
+tps-freeze-complete-ops: '&c已对 %number_affected% 生物进行操作 (冻结：%number_frozen% , nerf：%number_nerfed%)，耗时： %time%ms. 共有 %total_number_affected%/%total_number_mobs% 生物受到影响 (冻结数：%total_number_frozen%,nerf数 %total_number_nerfed%).'
+
+# 在开始被冻结时发送到控制台的消息.
+passive-freeze-start-console: '&c开始被动冻结中...'
+
+# 在开始被冻结时发送到控制台的消息.
+#  * %time% - 冻结耗时（单位为毫秒）
+#  * %number_affected% - 冻结或nerf的生物数
+#  * %number_frozen% - 冻结的生物数
+#  * %number_nerfed% - nerf的生物数
+#  * %total_number_affected% - 在所有世界的冻结和/或nerf的生物数.
+#  * %total_number_frozen% - 在所有世界冻结的生物数
+#  * %total_number_nerfed% - 在所有世界nerf的生物数
+#  * %total_number_mobs% - 所有世界总生物数
+passive-freeze-complete-console: '&c已对 %number_affected% 生物进行操作 (冻结：%number_frozen% , nerf：%number_nerfed%)，耗时： %time%ms. 共有 %total_number_affected%/%total_number_mobs% 生物受到影响 (冻结数：%total_number_frozen%,nerf数 %total_number_nerfed%).'
+
+# 发送给拥有saml.notify权限的玩家的消息.
+passive-freeze-start-ops: '&c开始被动冻结中...'
+
+# 发送给拥有saml.notify权限的玩家的消息.
+#  * %time% - 冻结耗时（单位为毫秒）
+#  * %number_affected% - 冻结或nerf的生物数
+#  * %number_frozen% - 冻结的生物数
+#  * %number_nerfed% - nerf的生物数
+#  * %total_number_affected% - 在所有世界的冻结和/或nerf的生物数.
+#  * %total_number_frozen% - 在所有世界冻结的生物数
+#  * %total_number_nerfed% - 在所有世界nerf的生物数
+#  * %total_number_mobs% - 所有世界总生物数
+passive-freeze-complete-ops: '&c已对 %number_affected% 生物进行操作 (冻结：%number_frozen% , nerf：%number_nerfed%)，耗时： %time%ms. 共有 %total_number_affected%/%total_number_mobs% 生物受到影响 (冻结数：%total_number_frozen%,nerf数 %total_number_nerfed%).'
+
+# section-end

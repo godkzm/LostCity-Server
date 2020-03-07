@@ -1,0 +1,138 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 12
+settings:
+  debug: false
+  sample-count: 12
+  save-user-cache-on-stop-only: true
+  log-villager-deaths: true
+  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 0.0625
+  bungeecord: false
+  player-shuffle: 0
+  netty-threads: 4
+  user-cache-size: 1000
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+messages:
+  whitelist: 你不在这个服务器的白名单里。
+  unknown-command: 你输入的命令不正确。
+  server-full: 这个服务器满员了！
+  outdated-client: 过期的客户端！请使用版本为 {0} 的客户端。
+  outdated-server: 服务器已过期！版本仍在 {0} !
+  restart: 服务器重启中
+commands:
+  silent-commandblock-console: false
+  tab-complete: 0
+  send-namespaced: true
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+stats:
+  disable-saving: false
+  forced-stats: {}
+world-settings:
+  worldeditregentempworld:
+    verbose: false
+  default:
+    verbose: true
+    mob-spawn-range: 3
+    view-distance: 6
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    item-despawn-rate: 5000
+    nerf-spawner-mobs: true
+    zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 600
+    trident-despawn-rate: 1200
+    hanging-tick-frequency: 100
+    seed-village: 10387312
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-monument: 10387313
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-slime: 987234911
+    dragon-death-sound-radius: 0
+    hopper-amount: 1
+    max-tnt-per-tick: 100
+    max-entity-collisions: 8
+    merge-radius:
+      item: 4.0
+      exp: 6.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+    entity-tracking-range:
+      players: 50
+      animals: 50
+      monsters: 50
+      misc: 32
+      other: 64
+    entity-activation-range:
+      animals: 20
+      monsters: 30
+      raiders: 50
+      misc: 5
+      water: 20
+      tick-inactive-villagers: true
+    squid-spawn-range:
+      min: 45.0
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    max-tick-time:
+      tile: 1000
+      entity: 1000

@@ -1,0 +1,69 @@
+(10:01:05) Matrix Enabled!
+(10:01:05) Version: 4.3.5
+(10:05:55) Matrix Enabled!
+(10:05:55) Version: 4.3.5
+(10:10:21) Matrix Enabled!
+(10:10:21) Version: 4.3.5
+(10:23:49) Matrix Enabled!
+(10:23:49) Version: 4.3.5
+(10:28:25) Matrix Enabled!
+(10:28:25) Version: 4.3.5
+(10:29:17) Matrix Enabled!
+(10:29:17) Version: 4.3.5
+(11:45:02) Matrix Enabled!
+(11:45:02) Version: 4.3.5
+(12:24:37) Matrix Enabled!
+(12:24:37) Version: 4.3.5
+(12:36:20) God_KZM failed FastHeal check | regen health too fast | difficulty: 2 delay: 185 protocol_ver: 15 (+2) | vl:2 ping:0 TPS:20.0 lp:0 component: heal
+(12:36:20) God_KZM failed FastHeal check | regen health too fast | difficulty: 2 delay: 176 protocol_ver: 15 (+2) | vl:4 ping:0 TPS:20.0 lp:0 component: heal
+(12:36:21) God_KZM failed FastHeal check | regen health too fast | difficulty: 2 delay: 418 protocol_ver: 15 (+2) | vl:6 ping:0 TPS:20.0 lp:0 component: heal
+(12:37:06) Matrix Enabled!
+(12:37:06) Version: 4.3.5
+(12:39:19) Matrix Enabled!
+(12:39:19) Version: 4.3.5
+(13:07:03) God_KZM failed Block check | abort breaking (at: 12.0,68.0,-45.0, type: chest) (+0) | vl:0 ping:0 TPS:19.99 lp:1 component: block.abort
+(13:16:06) apatrickjones failed Block check | fast break | type: a | d: 0 f: 0 (+4) | vl:4 ping:0 TPS:20.0 lp:0 component: block.fastbreak.packet
+(13:16:20) apatrickjones failed BadPackets check | (timer) timer modify: 1.429 var:700 buffer:20 | tag: timer (+10) | vl:10 ping:0 TPS:20.0 lp:59 component: net.timer
+(13:16:20) apatrickjones failed BadPackets check | (timer) timer modify: 1.931 var:518 buffer:20 | tag: timer (+10) | vl:20 ping:0 TPS:20.0 lp:59 component: net.timer
+(13:16:21) apatrickjones failed BadPackets check | (timer) send 70 moving packets in 1021ms | tag: limit (+10) | vl:30 ping:0 TPS:20.0 lp:59 component: net.timer
+(13:16:21) apatrickjones failed BadPackets check | (timer) timer modify: 1.199 var:834 buffer:20 | tag: timer (+10) | vl:40 ping:0 TPS:20.0 lp:59 component: net.timer
+(13:16:37) apatrickjones failed Speed check | suspicious movement (move: 4.9, predict: 0.237, friction: 0.6, ground:false, motY: 5.0, increase:0.026, preMove:0.211, motion: -4.872,5.0,0.525, attribute: 0.13, tag: pred) (+1) | vl:1 ping:6638 TPS:19.99 lp:8 component: move.xz
+(13:16:37) apatrickjones failed Fly check | step | p: 1 | m:5.0 ev:0.248 lm:0.99 (+2) | vl:2 ping:6638 TPS:19.99 lp:8 component: speed.step
+(13:16:37) apatrickjones failed Fly check | suspicious movement:5.0 predict:0.248 vel:0.248 air_t:2 tag:vt (+1) | vl:3 ping:6638 TPS:19.99 lp:8 component: fly.main
+(13:16:38) apatrickjones failed Speed check | suspicious movement (move: 4.9, expect: 0.3665, tag: ea) (+6) | vl:7 ping:6638 TPS:20.0 lp:13 component: speed.main
+(13:16:38) apatrickjones failed Speed check | suspicious movement (move: 4.9, predict: 0.096, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.07, motion: 0.307,0.0,4.89, attribute: 0.13, tag: pred) (+1) | vl:8 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:38) apatrickjones failed Speed check | suspicious movement (move: 0.127, predict: 0.113, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.087, motion: 0.008,0.0,0.127, attribute: 0.13, tag: pred) (+1) | vl:9 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:39) apatrickjones failed Speed check | suspicious movement (move: 0.575, predict: 0.096, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.07, motion: 0.46,0.0,0.345, attribute: 0.13, tag: pred) (+1) | vl:10 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:39) apatrickjones failed Speed check | suspicious movement (move: 0.659, predict: 0.113, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.087, motion: 0.46,0.0,0.472, attribute: 0.13, tag: pred) (+1) | vl:11 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:39) apatrickjones failed Speed check | suspicious movement (move: 0.659, predict: 0.129, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.103, motion: 0.46,0.0,0.472, attribute: 0.13, tag: pred) (+1) | vl:12 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:39) apatrickjones failed Speed check | suspicious movement (move: 0.633, predict: 0.143, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.117, motion: 0.422,0.0,0.472, attribute: 0.13, tag: pred) (+1) | vl:13 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:40) apatrickjones failed Speed check | suspicious movement (move: 0.659, expect: 0.3665, tag: ea) (+1) | vl:14 ping:6638 TPS:20.0 lp:13 component: speed.main
+(13:16:40) apatrickjones failed Speed check | suspicious movement (move: 0.659, predict: 0.156, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.13, motion: 0.46,0.0,0.472, attribute: 0.13, tag: pred) (+1) | vl:15 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:16:41) apatrickjones failed Speed check | suspicious movement (move: 4.9, predict: 0.096, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.07, motion: 0.448,0.0,4.879, attribute: 0.13, tag: pred) (+1) | vl:16 ping:6638 TPS:20.0 lp:13 component: move.xz
+(13:17:00) apatrickjones failed Fly check | ground spoof (new pattern/pc/flying) (+5) | vl:5 ping:210 TPS:19.99 lp:23 component: fly.gf
+(13:17:01) apatrickjones failed Fly check | ground spoof (new pattern/pc/flying) (+5) | vl:10 ping:210 TPS:20.0 lp:23 component: fly.gf
+(13:17:02) apatrickjones failed BadPackets check | (timer) timer modify: 1.808 var:553 buffer:20 | tag: timer (+5) | vl:5 ping:210 TPS:20.0 lp:23 component: net.timer
+(13:17:03) apatrickjones failed BadPackets check | (timer) send 54 moving packets in 2183ms | tag: limit (+5) | vl:10 ping:210 TPS:20.0 lp:23 component: net.timer
+(13:17:10) apatrickjones failed Fly check | ground spoof (new pattern/pc/flying) (+2) | vl:12 ping:210 TPS:20.0 lp:41 component: fly.gf
+(13:17:11) apatrickjones failed BadPackets check | (timer) timer modify: 1.825 var:548 buffer:20 | tag: timer (+2) | vl:12 ping:210 TPS:20.0 lp:39 component: net.timer
+(13:17:12) apatrickjones failed BadPackets check | (timer) timer modify: 1.414 var:707 buffer:20 | tag: timer (+2) | vl:14 ping:210 TPS:19.99 lp:39 component: net.timer
+(13:17:13) apatrickjones failed BadPackets check | (timer) timer modify: 2.571 var:389 buffer:20 | tag: timer (+2) | vl:16 ping:210 TPS:19.99 lp:39 component: net.timer
+(13:17:13) apatrickjones failed BadPackets check | (timer) timer modify: 1.984 var:504 buffer:20 | tag: timer (+2) | vl:18 ping:210 TPS:19.99 lp:39 component: net.timer
+(13:17:14) apatrickjones failed BadPackets check | (timer) timer modify: 1.783 var:561 buffer:20 | tag: timer (+2) | vl:20 ping:210 TPS:19.99 lp:39 component: net.timer
+(13:17:14) apatrickjones failed BadPackets check | (timer) send 94 moving packets in 1160ms | tag: limit (+2) | vl:22 ping:210 TPS:20.0 lp:39 component: net.timer
+(13:17:37) apatrickjones failed Fly check | suspicious movement:0.0 predict:-0.715 vel:-0.152 air_t:12 tag:m4 (+10) | vl:10 ping:0 TPS:20.0 lp:23 component: fly.main
+(13:17:37) apatrickjones failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 8.244,55.596,-3.577, type: air) (+5) | vl:15 ping:0 TPS:20.0 lp:23 component: fly.gf
+(13:17:38) apatrickjones failed BadPackets check | (timer) timer modify: 1.667 var:600 buffer:20 | tag: timer (+10) | vl:10 ping:0 TPS:19.99 lp:23 component: net.timer
+(13:17:39) apatrickjones failed BadPackets check | (timer) timer modify: 1.425 var:702 buffer:20 | tag: timer (+10) | vl:20 ping:0 TPS:19.99 lp:23 component: net.timer
+(13:17:40) apatrickjones failed BadPackets check | (timer) timer modify: 1.873 var:534 buffer:20 | tag: timer (+10) | vl:30 ping:0 TPS:19.99 lp:23 component: net.timer
+(13:17:40) apatrickjones failed BadPackets check | (timer) timer modify: 1.429 var:700 buffer:20 | tag: timer (+10) | vl:40 ping:0 TPS:19.99 lp:36 component: net.timer
+(13:17:41) apatrickjones failed BadPackets check | (timer) send 85 moving packets in 1162ms | tag: limit (+10) | vl:50 ping:0 TPS:19.99 lp:36 component: net.timer
+(13:18:06) apatrickjones failed Fly check | ground spoof (new pattern/pc/flying) (+10) | vl:10 ping:0 TPS:20.0 lp:16 component: fly.gf
+(13:18:07) apatrickjones failed Fly check | ground spoof (new pattern/pc/flying) (+10) | vl:20 ping:0 TPS:19.98 lp:16 component: fly.gf
+(13:18:08) apatrickjones failed BadPackets check | (timer) timer modify: 2.0 var:500 buffer:20 | tag: timer (+10) | vl:10 ping:0 TPS:20.0 lp:21 component: net.timer
+(13:18:08) apatrickjones failed BadPackets check | (timer) timer modify: 1.818 var:550 buffer:20 | tag: timer (+10) | vl:20 ping:0 TPS:20.0 lp:21 component: net.timer
+(13:18:11) apatrickjones failed BadPackets check | (timer) send 46 moving packets in 1025ms | tag: limit (+10) | vl:30 ping:0 TPS:20.0 lp:21 component: net.timer
+(13:18:11) apatrickjones failed Speed check | suspicious movement (move: 1.227, predict: 0.026, friction: 0.6, ground:false, motY: 0.753, increase:0.026, preMove:0.0, motion: 1.144,0.753,0.443, attribute: 0.13, tag: pred) (+5) | vl:5 ping:0 TPS:20.0 lp:21 component: move.xz
+(13:18:23) apatrickjones failed Speed check | suspicious movement (move: 0.098, predict: 0.05, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.024, motion: 0.098,0.0,0.008, attribute: 0.13, tag: pred) (+1) | vl:6 ping:5457 TPS:19.99 lp:31 component: move.xz
+(14:21:56) Matrix Enabled!
+(14:21:56) Version: 4.3.5

@@ -1,0 +1,9 @@
+no-open-permission: '&c你没有权限来打开这个菜单！'
+default-no-icon-permission: '&c你没有权限去点击这个图标！'
+open-menu: '&a打开菜单中...'
+no-exp: '&c你需要 {levels} 等级才能这样做！'
+menu-not-found: '&c未找到菜单！请联系管理员！'
+no-money: '&c你需要 {money} 元去这样做！'
+no-required-item: '&c你需要有 &e{amount}x {material} &c(data value: {datavalue}) 去这样做！'
+open-menu-others: '&a为玩家 {player} 打开菜单中...'
+any: 任意

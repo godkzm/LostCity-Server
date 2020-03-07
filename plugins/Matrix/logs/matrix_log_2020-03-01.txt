@@ -1,0 +1,37 @@
+(06:45:49) Matrix Enabled!
+(06:45:49) Version: 4.3.3
+(13:40:30) Matrix Enabled!
+(13:40:30) Version: 4.3.3
+(13:49:31) Matrix Enabled!
+(13:49:31) Version: 4.3.3
+(13:52:18) Matrix Enabled!
+(13:52:18) Version: 4.3.3
+(13:55:54) Matrix Enabled!
+(13:55:54) Version: 4.3.4
+(14:01:37) Matrix Enabled!
+(14:01:37) Version: 4.3.4
+(14:12:24) Matrix Enabled!
+(14:12:24) Version: 4.3.4
+(14:41:15) Matrix Enabled!
+(14:41:15) Version: 4.3.4
+(14:44:02) Matrix Enabled!
+(14:44:02) Version: 4.3.4
+(15:22:06) Matrix Enabled!
+(15:22:06) Version: 4.3.4
+(15:38:38) God_KZM failed Speed check | change direction in mid-air (dist: 0.321, angle:55.74, pre:0.164) (+5) | vl:5 ping:3 tps:20.0 lp:2 component: speed.strafe
+(15:53:16) Matrix Enabled!
+(15:53:16) Version: 4.3.4
+(18:33:40) Matrix Enabled!
+(18:33:40) Version: 4.3.4
+(18:41:11) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 1.587) (+1) | vl:1 ping:11 tps:20.0 lp:1 component: hb.mis
+(18:42:20) God_KZM failed Fly check | ground spoof (expect: --, move: 0.042,0.0,0.051, at: 38.455,66.0,1.809, type: air) (+5) | vl:5 ping:11 tps:20.0 lp:4 component: fly.gf
+(18:46:02) God_KZM failed KillAura check | (autoclicker) click delay pattern | 1.9+ delay | avg: 250 diff: 5 (+5) | vl:5 ping:15 tps:20.0 lp:2 component: ka.ac.9p
+(18:46:02) Execute command: matrix npc God_KZM 100
+(18:49:02) Matrix Enabled!
+(18:49:02) Version: 4.3.4
+(19:17:53) Matrix Enabled!
+(19:17:53) Version: 4.3.4
+(19:35:50) Matrix Enabled!
+(19:35:50) Version: 4.3.4
+(19:39:55) Matrix Enabled!
+(19:39:55) Version: 4.3.4

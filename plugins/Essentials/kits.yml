@@ -1,0 +1,24 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {PLAYER} to specify the player receiving the kit.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  tools:
+    delay: 86400
+    items:
+      - stonesword 1 name:&6&l新手石剑
+      - stoneshovel 1 name:&6&l新手石锹
+      - stonepickaxe 1 name:&6&l新手石镐
+      - stoneaxe 1 name:&6&l新手石斧
+      - leather_helmet 1 name:&6&l新手皮革头盔
+      - leather_chestplate 1 name:&6&l新手皮革胸甲
+      - leather_leggings 1 name:&6&l新手皮革裤腿
+      - leather_boots 1 name:&6&l新手皮革靴子
+      - clock 1 name:&6&l游戏菜单

@@ -1,0 +1,42 @@
+Versioning: 337
+HandShakeLimitor:
+  enable: true
+  PerIPSecondLimit: 3
+PacketCheck:
+  AntiFastPacketAttack:
+    KickMessage: §c有可能是压测机器人!请重新登录!
+    enable: true
+    PerTypeSecondLimit: 75
+    PerTypeSecondKick: 150
+AntiAttack:
+  PluginPrefix: §a[安全系统]
+  Boardcast: true
+  AutoUpdate: true
+AntiKickAttack:
+  DenyMessage: §c有一个相同玩家已经在线了!
+  enable: true
+AntiPingAttack:
+  PerIPInterval: 500
+  TotalInterval: 50
+  enable: true
+RestrictMode:
+  Timer:
+    CountLimit: 1
+    CountPeriod: 5
+    DenyMessage: §c服务器遭到集群压测,请稍等再登录!
+  Times:
+    CountLimit: 3
+    DenyMessage: §c服务器遭到集群压测,请稍等再登录!
+  enable: true
+AntiFastJoin:
+  Interval: 4000
+  DenyMessage: §c你加入过于频繁了!请稍等几秒!
+  enable: true
+AntiTabCompleteAttack:
+  PerIPInterval: 1000
+  enable: true
+  TotalInterval: 100
+AntiMOTDAttack:
+  enable: true
+  PerIP5sLimit: 10
+  Total5sLimit: 100

@@ -1,0 +1,33 @@
+(08:05:04) Matrix Enabled!
+(08:05:04) Version: 4.3.5
+(08:05:51) God_KZM failed Fly check | ground spoof (new pattern/pc/flying) (+10) | vl:10 ping:0 TPS:20.0 lp:53 component: fly.gf
+(08:56:26) Matrix Enabled!
+(08:56:26) Version: 4.3.5
+(09:00:13) God_KZM failed Fly check | ground spoof (new pattern/pc/flying) (+10) | vl:10 ping:0 TPS:20.0 lp:0 component: fly.gf
+(09:00:16) God_KZM failed FastHeal check | regen health too fast | difficulty: 1 delay: 276 protocol_ver: 15 (+2) | vl:2 ping:0 TPS:20.0 lp:0 component: heal
+(09:00:16) God_KZM failed FastHeal check | regen health too fast | difficulty: 1 delay: 332 protocol_ver: 15 (+2) | vl:4 ping:0 TPS:20.0 lp:0 component: heal
+(09:00:38) God_KZM failed Phase check | moved into block (block: oak_fence, move: 0.0,0.0,-0.088, at: 33.705,61.5,-5.269, dist: 0.088, block_collisions: {minX=33.375, minY=60.0, minZ=-5.625, maxX=33.625, maxY=61.5, maxZ=-5.0}, high: 61.499999999999986, loop: false, async) (+2) | vl:2 ping:0 TPS:19.98 lp:1 component: phase.main
+(09:21:37) Matrix Enabled!
+(09:21:37) Version: 4.3.5
+(09:52:16) God_KZM failed Chat check | chat too fast | delay: 2567 (+1) | vl:1 ping:8 TPS:19.99 lp:3 component: chat.delay
+(09:52:18) God_KZM failed Chat check | chat too fast | delay: 2202 (+1) | vl:2 ping:8 TPS:20.0 lp:3 component: chat.delay
+(09:56:36) God_KZM failed Chat check | send the same chat content (+1) | vl:1 ping:9 TPS:20.0 lp:84 component: chat.same
+(13:20:58) Matrix Enabled!
+(13:20:58) Version: 4.3.5
+(16:13:06) Matrix Enabled!
+(16:13:06) Version: 4.3.5
+(16:20:56) God_KZM failed Fly check | ground spoof (new pattern/pc/flying) (+10) | vl:10 ping:0 TPS:20.0 lp:0 component: fly.gf
+(16:20:57) God_KZM failed Jesus check | move vertically too fast (motion: -0.905, expect: 0.8519565978863861, module: vertical) (+5) | vl:5 ping:0 TPS:20.0 lp:0 component: jesus.ver
+(16:20:57) God_KZM failed Jesus check | move vertically too fast (motion: -0.517, expect: 0.4, module: vertical) (+5) | vl:10 ping:0 TPS:20.0 lp:0 component: jesus.ver
+(16:20:58) Execute command: matrix notify God_KZM tried to move illegally in liquid (Jesus)
+(16:20:58) God_KZM failed Jesus check | move vertically too fast (motion: -0.447, expect: 0.4, module: vertical) (+5) | vl:15 ping:0 TPS:20.0 lp:0 component: jesus.ver
+(16:20:58) God_KZM failed Jesus check | move vertically too fast (motion: -0.447, expect: 0.4, module: vertical) (+5) | vl:20 ping:0 TPS:20.0 lp:0 component: jesus.ver
+(16:20:58) God_KZM failed Jesus check | move vertically too fast (motion: -0.447, expect: 0.4, module: vertical) (+5) | vl:25 ping:0 TPS:20.0 lp:34 component: jesus.ver
+(16:20:59) Execute command: matrix kick God_KZM Jesus/WaterSpeed/WaterFly Hacks
+(16:42:32) God_KZM failed Fly check | suspicious movement:0.464 predict:-0.304 vel:-0.078 air_t:3 tag:vt (+5) | vl:5 ping:15 TPS:20.0 lp:1 component: fly.main
+(16:44:50) God_KZM failed Fly check | suspicious movement:0.464 predict:-0.304 vel:-0.078 air_t:3 tag:vt (+5) | vl:5 ping:2 TPS:20.0 lp:1 component: fly.main
+(16:49:02) God_KZM failed Speed check | suspicious movement (move: 0.135, predict: 0.091, friction: 0.6, ground:false, motY: 0.0, increase:0.026, preMove:0.065, motion: -0.124,0.0,0.053, attribute: 0.13, tag: pred) (+5) | vl:5 ping:1 TPS:19.98 lp:3 component: move.xz
+(18:44:47) Matrix Enabled!
+(18:44:47) Version: 4.3.5
+(19:37:02) Matrix Enabled!
+(19:37:02) Version: 4.3.5

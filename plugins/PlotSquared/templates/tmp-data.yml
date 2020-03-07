@@ -1,0 +1,54 @@
+plot:
+  height: 62
+  size: 150
+  filling: stone
+  floor: grass_block
+  bedrock: true
+  biome: FOREST
+  auto_merge: false
+  create_signs: true
+wall:
+  block: stone_slab
+  block_claimed: stone_slab
+  filling: stone
+  height: 62
+road:
+  width: 20
+  height: 62
+  block: quartz_block
+generator:
+  type: 1
+  terrain: 3
+  plugin: PlotSquared
+misc_spawn_unowned: false
+home:
+  nonmembers: side
+  default: side
+schematic:
+  specify_on_claim: false
+  on_claim: false
+  file: 'null'
+  schematics: []
+economy:
+  prices:
+    merge: 100
+    sell: 100
+    claim: 100
+  use: false
+chat:
+  enabled: false
+limits:
+  max-members: 128
+world:
+  max_height: 256
+  gamemode: creative
+  min_height: 1
+  border: false
+event:
+  spawn:
+    egg: false
+    breeding: false
+    custom: true
+natural_mob_spawning: false
+mob_spawner_spawning: false
+flags: {}

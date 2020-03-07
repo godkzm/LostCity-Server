@@ -1,0 +1,165 @@
+# 请勿更改版本号!
+version: 1
+
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  寻路目标切换                                                                                         |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: pathfinder_goal_toggling
+
+# 你可以在这里设置'nerfed'的生物的寻路器.
+# 你可以指定每个实体类型、组或类:
+#   * 实体列表: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+#   * 每组生物必须加上 'group.'的前缀, 比如 'group.example_group'.
+#   * 实体类包括: ambient·环境, animal·动物, fish·鱼, flying·飞行生物, monster·怪物, raider·侵略者, watermob·水生生物
+# 这些选项的顺序很重要:
+#   * 组'example_group'内的任何生物必须关闭PathfinderGoalExample.
+#   * 如果不在组'example_group'内但生物类为watermob，那么请勿关闭目标.
+#   * 如果既不是watermob也不在组'example_group'内，那么请关闭目标.
+PathfinderGoalExample:
+  group.example_group: false
+  watermob: true
+  default: false
+
+# 如果未指定寻路器目标,是否默认开启?
+unspecified:
+  default: true
+
+# 下列目标名称可能会因版本不同而更改，它们基于不受影响的类名生成.
+
+PathfinderGoalArrowAttack:
+
+PathfinderGoalAvoidTarget:
+
+PathfinderGoalBeg:
+
+PathfinderGoalBowShoot:
+
+PathfinderGoalBreakDoor:
+
+PathfinderGoalBreath:
+
+PathfinderGoalBreed:
+
+PathfinderGoalCatSitOnBed:
+
+PathfinderGoalCrossbowAttack:
+
+PathfinderGoalDefendVillage:
+
+PathfinderGoalDoorInteract:
+
+PathfinderGoalEatTile:
+
+PathfinderGoalFishSchool:
+
+PathfinderGoalFleeSun:
+
+# 关闭这个设置会导致生物被水淹没!
+PathfinderGoalFloat:
+  default: true
+
+PathfinderGoalFollowBoat:
+
+PathfinderGoalFollowEntity:
+
+PathfinderGoalFollowOwner:
+
+PathfinderGoalFollowOwnerParrot:
+
+PathfinderGoalFollowParent:
+
+PathfinderGoalGotoTarget:
+
+PathfinderGoalHorseTrap:
+
+PathfinderGoalHurtByTarget:
+
+PathfinderGoalInteract:
+
+PathfinderGoalJumpOnBlock:
+
+PathfinderGoalLeapAtTarget:
+
+PathfinderGoalLLamaFollow:
+
+PathfinderGoalLookAtPlayer:
+
+PathfinderGoalLookAtTradingPlayer:
+
+PathfinderGoalMeleeAttack:
+
+PathfinderGoalMoveThroughVillage:
+
+PathfinderGoalMoveTowardsRestriction:
+
+PathfinderGoalMoveTowardsTarget:
+
+PathfinderGoalNearestAttackableTarget:
+
+PathfinderGoalNearestAttackableTargetWitch:
+
+PathfinderGoalNearestHealableRaider:
+
+PathfinderGoalNearestVillage:
+
+PathfinderGoalOcelotAttack:
+
+PathfinderGoalOfferFlower:
+
+PathfinderGoalOwnerHurtByTarget:
+
+PathfinderGoalOwnerHurtTarget:
+
+PathfinderGoalPanic:
+
+PathfinderGoalPerch:
+
+PathfinderGoalRaid:
+
+PathfinderGoalRandomFly:
+  default: false
+
+PathfinderGoalRandomLookaround:
+
+PathfinderGoalRandomStroll:
+  default: false
+
+PathfinderGoalRandomStrollLand:
+  default: false
+
+PathfinderGoalRandomSwim:
+  default: false
+
+PathfinderGoalRandomTargetNonTamed:
+
+PathfinderGoalRemoveBlock:
+
+PathfinderGoalRestrictSun:
+
+PathfinderGoalSit:
+
+PathfinderGoalStrollVillage:
+
+PathfinderGoalSwell:
+
+PathfinderGoalTame:
+
+PathfinderGoalTempt:
+
+PathfinderGoalTradeWithPlayer:
+
+PathfinderGoalUseItem:
+
+PathfinderGoalWater:
+
+PathfinderGoalWaterJump:
+
+PathfinderGoalZombieAttack:
+
+# 掠夺者的巡逻目标
+EntityMonsterPatrolling.a:
+
+# 僵尸破坏海龟蛋的目标
+EntityZombie.a:
+
+# section-end

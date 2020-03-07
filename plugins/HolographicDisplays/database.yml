@@ -1,0 +1,81 @@
+Welcome-Spawn:
+  location: spawn, 20.623, 62.200, -5.370
+  lines:
+  - '&b&l欢迎来到 &r&6Minecraft LostCity &b&l服务器！'
+  - '&5&l服务器还有菜单哟！'
+  - '&a&l输入&r&6/menu&r&a&l即可打开！'
+  - '&4&l有疑问吗？'
+  - '&9&l加入QQ群 &r&61071162319 &r&9&l吧！'
+  - '&6&l服务器官方网站:'
+  - '&6https://www.lostcity.top/'
+Parkour-Spawn:
+  location: spawn, 24.468, 63.200, 18.412
+  lines:
+  - '&a&l开始跑酷吧!'
+  - '&7'
+  - '&7'
+  - '&7'
+  - '&7'
+  - '&7'
+  - '&7'
+  - '&7&l希望你能回来...'
+Spawn-Memory-1:
+  location: spawn, -17.672, 71.200, 0.356
+  lines:
+  - '&7&l我...来过这里吗？'
+Spawn-Memory-2:
+  location: spawn, -16.637, 69.200, -12.959
+  lines:
+  - '&7&l那前面.......是...？'
+Spawn-Memory-3:
+  location: spawn, -10.484, 70.200, -32.201
+  lines:
+  - '&7&l多大的别墅呀...'
+  - '&7&l也许...我也住过...？'
+Spawn-Memory-Tip:
+  location: spawn, 12.700, 62.200, -5.440
+  lines:
+  - '&7&l去前面看看吧..？'
+SystemShop-Way-1:
+  location: spawn, 15.513, 63.200, 11.497
+  lines:
+  - '&a&l想去系统商铺吗？向右走就能找到！'
+SystemShop-Way-2:
+  location: spawn, 3.366, 62.200, 7.484
+  lines:
+  - '&a&l你如果想去系统商铺'
+  - '&a&l应该走这边'
+SystemShop-Way-3:
+  location: spawn, 0.535, 66.200, -26.172
+  lines:
+  - '&a&l马上就快到系统商铺了！'
+SystemShop-Welcome:
+  location: spawn, 4.477, 69.200, -51.389
+  lines:
+  - '&6&l欢迎来到系统商铺！'
+  - '&6&l在向服主联系后（&r&6QQ：2633047525&6&l）'
+  - '&6&l你可以在这里摆设商铺'
+  - '&6&l（注意：不接受现金交易）'
+Egg-1:
+  location: spawn, 16.446, 53.756, -5.633
+  lines:
+  - '&7&m这都被你发现了!'
+End-Welcome:
+  location: world_the_end, -0.551, 41.200, -10.453
+  lines:
+  - '&d&l欢迎来到末地！'
+End-Way-1:
+  location: world_the_end, -0.648, 66.200, 17.474
+  lines:
+  - '&d&l在附近找找信标光束！'
+  - '&d&l也许你能够到达外岛！'
+End-Main-1:
+  location: world_the_end, -66.451, 60.200, -0.614
+  lines:
+  - '&d&l祝贺你！找到了通往外岛的传送门！'
+  - '&d&l拿上一颗末影珍珠！往上面的传送门方块投掷！'
+  - '&d&l开始去往外岛探险吧！'
+End-Branch-1:
+  location: world_the_end, -994.473, 69.200, 12.458
+  lines:
+  - '&d&l欢迎来到末地外岛，尽情探险吧！'

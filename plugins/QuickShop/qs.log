@@ -1,0 +1,7 @@
+[2020-03-04 17:34:22.941] Player God_KZM created a shop at location Location{world=CraftWorld{name=spawn},x=5.0,y=67.0,z=-43.0,pitch=0.0,yaw=0.0}
+[2020-03-04 17:34:22.942] Player God_KZM created a shop at location Location{world=CraftWorld{name=spawn},x=5.0,y=67.0,z=-43.0,pitch=0.0,yaw=0.0}
+[2020-03-04 17:34:40.375] Player God_KZM bought God_KZM shop Shop spawn(5, 67, -43) Owner: God_KZM - 2c6e005e-55cb-3e50-a42d-9c263ad0a237 Price: 10.0 Item: ItemStack{ENCHANTED_GOLDEN_APPLE x 1} for items x64 for $640 ($0 tax).
+[2020-03-04 18:06:33.533] Shop at location Location{world=CraftWorld{name=spawn},x=5.0,y=67.0,z=-43.0,pitch=0.0,yaw=0.0} moderator was changed to {"owner":"77db3d9f-63e8-3774-a613-920140e22625","staffs":[]}
+[2020-03-04 18:07:00.57] Shop at location Location{world=CraftWorld{name=spawn},x=5.0,y=67.0,z=-43.0,pitch=0.0,yaw=0.0} moderator was changed to {"owner":"2c6e005e-55cb-3e50-a42d-9c263ad0a237","staffs":[]}
+[2020-03-04 18:07:09.985] Shop at location Location{world=CraftWorld{name=spawn},x=5.0,y=67.0,z=-43.0,pitch=0.0,yaw=0.0} price was changed from 10.0 to 1000.0
+[2020-03-04 18:07:33.737] Shop at Location{world=CraftWorld{name=spawn},x=5.0,y=67.0,z=-43.0,pitch=0.0,yaw=0.0} was removed.

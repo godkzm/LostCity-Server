@@ -1,0 +1,70 @@
+(07:51:18) Matrix Enabled!
+(07:51:18) Version: 4.3.4
+(07:53:18) Matrix Enabled!
+(07:53:18) Version: 4.3.4
+(08:17:28) God_KZM failed BadPackets check | (timer) send 51 moving packets in 1043ms | tag: limit (+10) | vl:10 ping:0 tps:20.0 lp:0 component: net.timer
+(08:35:36) Matrix Enabled!
+(08:35:36) Version: 4.3.4
+(08:50:44) Matrix Enabled!
+(08:50:44) Version: 4.3.4
+(09:06:41) Matrix Enabled!
+(09:06:41) Version: 4.3.4
+(09:13:12) God_KZM failed Block check | abort breaking (at: 30.0,62.0,17.0, type: sand) (+0) | vl:0 ping:0 TPS:20.0 lp:8 component: block.abort
+(09:13:15) God_KZM failed Fly check | suspicious movement:-0.103 predict:-0.228 lm:-0.152 hard_pred:-0.228 sev_pred:0.0 air_t:7 fall_t:3 g:-- tag:gn (+5) | vl:5 ping:0 TPS:20.0 lp:8 component: fly.main
+(09:13:17) God_KZM failed Fly check | suspicious movement:-0.087 predict:0.333 lm:0.42 hard_pred:0.333 sev_pred:0.248 air_t:1 fall_t:1 g:-- tag:gn (+5) | vl:10 ping:0 TPS:20.0 lp:4 component: fly.main
+(09:22:34) God_KZM failed Speed check | change direction in mid-air (dist: 0.286, angle:56.786, pre:0.285) (+5) | vl:5 ping:3 TPS:19.99 lp:10 component: speed.strafe
+(09:24:15) God_KZM failed Speed check | t: spin (+10) | vl:10 ping:10 TPS:19.99 lp:15 component: speed.spin
+(11:51:09) Matrix Enabled!
+(11:51:09) Version: 4.3.4
+(12:07:31) Matrix Enabled!
+(12:07:31) Version: 4.3.4
+(12:12:34) Matrix Enabled!
+(12:12:34) Version: 4.3.4
+(13:20:46) Matrix Enabled!
+(13:20:46) Version: 4.3.4
+(13:22:04) God_KZM failed Block check | abort breaking (at: 43.0,64.0,35.0, type: grass_block) (+0) | vl:0 ping:0 TPS:20.0 lp:33 component: block.abort
+(13:25:52) God_KZM failed Speed check | t: spin (+10) | vl:10 ping:7 TPS:20.0 lp:3 component: speed.spin
+(13:28:28) God_KZM failed Block check | break block too fast (digs: 70/75, hardness: 0.5, block: sand) (+4) | vl:4 ping:10 TPS:20.0 lp:4 component: block.fastbreak.expect
+(13:28:47) God_KZM failed Jesus check | liquid speed (speed: 0.12, expect:0.12, dmg: false, flw:false, module: in) (+3) | vl:3 ping:12 TPS:20.0 lp:8 component: jesus.speed.in
+(13:29:16) God_KZM failed Jesus check | liquid speed (speed: 0.124, expect:0.12, dmg: false, flw:false, module: in) (+3) | vl:3 ping:12 TPS:20.0 lp:1 component: jesus.speed.in
+(13:29:18) God_KZM failed Jesus check | liquid speed (speed: 0.248, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:6 ping:12 TPS:20.0 lp:1 component: jesus.speed.in
+(13:29:18) God_KZM failed Jesus check | liquid speed (speed: 0.242, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:9 ping:12 TPS:20.0 lp:1 component: jesus.speed.in
+(13:29:18) God_KZM failed Jesus check | liquid speed (speed: 0.238, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:12 ping:12 TPS:20.0 lp:1 component: jesus.speed.in
+(13:29:18) God_KZM failed Jesus check | liquid speed (speed: 0.233, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:15 ping:12 TPS:20.0 lp:1 component: jesus.speed.in
+(13:29:18) Execute command: matrix notify God_KZM tried to move illegally in liquid (Jesus)
+(13:29:18) God_KZM failed Jesus check | liquid speed (speed: 0.23, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:18 ping:12 TPS:20.0 lp:1 component: jesus.speed.in
+(13:29:24) God_KZM failed Speed check | change direction in mid-air (dist: 0.316, angle:91.493, pre:0.179) (+5) | vl:5 ping:12 TPS:20.0 lp:3 component: speed.strafe
+(13:31:45) God_KZM failed Fly check | suspicious movement:-0.103 predict:-0.228 lm:-0.152 hard_pred:-0.228 sev_pred:-0.078 air_t:7 fall_t:3 g:-- tag:gn (+5) | vl:5 ping:13 TPS:20.0 lp:4 component: fly.main
+(13:31:47) God_KZM failed Fly check | suspicious movement:-0.103 predict:-0.228 lm:-0.152 hard_pred:-0.228 sev_pred:-0.078 air_t:7 fall_t:3 g:-- tag:gn (+5) | vl:10 ping:13 TPS:20.0 lp:4 component: fly.main
+(13:42:04) God_KZM failed Chat check | send the same chat content (+1) | vl:1 ping:4 TPS:19.98 lp:180 component: chat.same
+(13:42:06) God_KZM failed Chat check | chat too fast | delay: 2334 (+1) | vl:2 ping:4 TPS:20.0 lp:180 component: chat.delay
+(13:42:06) God_KZM failed Chat check | send the same chat content (+1) | vl:3 ping:4 TPS:20.0 lp:180 component: chat.same
+(13:42:22) God_KZM failed Chat check | chat too fast | delay: 1524 (+1) | vl:4 ping:3 TPS:20.0 lp:102 component: chat.delay
+(13:42:22) Execute command: matrix notify God_KZM is spamming the chat (ChatSpam)
+(13:42:25) God_KZM failed Chat check | send the same chat content (+1) | vl:1 ping:3 TPS:19.99 lp:102 component: chat.same
+(13:42:26) God_KZM failed Chat check | chat too fast | delay: 944 (+1) | vl:2 ping:3 TPS:19.99 lp:102 component: chat.delay
+(13:42:26) God_KZM failed Chat check | send the same chat content (+1) | vl:3 ping:3 TPS:19.99 lp:102 component: chat.same
+(13:42:29) God_KZM failed Chat check | chat too fast | delay: 2555 (+1) | vl:4 ping:3 TPS:20.0 lp:102 component: chat.delay
+(13:42:29) Execute command: matrix notify God_KZM is spamming the chat (ChatSpam)
+(13:42:29) God_KZM failed Chat check | send the same chat content (+1) | vl:5 ping:3 TPS:20.0 lp:102 component: chat.same
+(13:42:29) God_KZM failed Chat check | chat too fast | delay: 582 (+1) | vl:6 ping:3 TPS:20.0 lp:102 component: chat.delay
+(13:42:29) God_KZM failed Chat check | send the same chat content (+1) | vl:7 ping:3 TPS:20.0 lp:102 component: chat.same
+(13:42:32) God_KZM failed Chat check | chat too fast | delay: 2100 (+1) | vl:8 ping:3 TPS:20.0 lp:102 component: chat.delay
+(13:42:32) God_KZM failed Chat check | send the same chat content (+1) | vl:9 ping:3 TPS:20.0 lp:102 component: chat.same
+(13:42:33) God_KZM failed Chat check | chat too fast | delay: 1261 (+1) | vl:10 ping:3 TPS:20.0 lp:102 component: chat.delay
+(13:42:33) Execute command: matrix kick God_KZM Stop spamming the chat!
+(13:42:33) God_KZM failed Chat check | send the same chat content (+1) | vl:11 ping:3 TPS:20.0 lp:102 component: chat.same
+(13:50:34) Matrix Enabled!
+(13:50:34) Version: 4.3.4
+(13:54:18) God_KZM failed Block check | abort breaking (at: 68.0,89.0,-22.0, type: spruce_planks) (+0) | vl:0 ping:8 TPS:20.0 lp:366 component: block.abort
+(14:04:19) God_KZM failed Chat check | send the same chat content (+1) | vl:1 ping:1 TPS:19.99 lp:857 component: chat.same
+(14:05:10) God_KZM failed Chat check | send the same chat content (+1) | vl:1 ping:16 TPS:20.0 lp:512 component: chat.same
+(14:05:21) God_KZM failed Chat check | send the same chat content (+1) | vl:2 ping:1 TPS:20.0 lp:512 component: chat.same
+(15:18:45) God_KZM failed Speed check | suspicious movement (move: 0.129, expect:0.128, t:100, tag: a) (+9) | vl:9 ping:4 TPS:19.99 lp:3 component: speed.main
+(15:19:04) God_KZM failed Fly check | suspicious movement:0.034 predict:-0.078 vel:-0.155 air_t:12 tag:m4 (+10) | vl:10 ping:8 TPS:20.0 lp:9 component: fly.main
+(16:13:00) Matrix Enabled!
+(16:13:00) Version: 4.3.4
+(16:15:11) Matrix Enabled!
+(16:15:11) Version: 4.3.4
+(16:18:52) Matrix Enabled!
+(16:18:52) Version: 4.3.4

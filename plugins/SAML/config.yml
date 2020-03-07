@@ -1,0 +1,363 @@
+# 不要更改版本号!
+version: 8
+
+# !! 请勿编辑包含 'section-begin' 或 'section-end'的内容. 这些东西用于更新配置 !!
+
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  特性                                                                                                          |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: features
+
+# 是否生成更多配置选项?
+#   * 大多数选项位于 advanced_config.yml 可以让你修改一些实体的配置
+#     
+use-advanced-config: false
+
+# 是否经常执行冻结任务 ?
+#   * 你可以在 'Passive freeze parameters' 部分设置冻结时间
+#   * 这一选项主要用于冻结或nerf不太需要AI的大型生物农场
+enable-passive-freeze-task: true
+
+# 多少刻冻结或解冻一次生物? 20刻为1秒.
+ticks-per-passive-freeze-task: 1200
+
+# 是否在冻结特定的生物时TPS降低时额外运行冻结任务？
+#   * 你可以在 'TPS freeze parameters' 设置冻结那些类型的实体
+#     
+#   * 在被动冻结时牺牲生物AI来回升TPS
+#     
+enable-tps-freeze-task: true
+
+# 多少刻冻结或解冻一次生物? 20刻为1秒.
+ticks-per-tps-freeze-task: 1200
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  区块冻结缓存设置                                                                                       |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: frozen_chunk_cache_settings
+
+# 是否保留冻结生物所在区块列表?
+# 请启用这项以防插件异常卸载导致插件功能失效.这可以让你更轻松地解冻生物
+keep-frozen-chunk-cache: true
+
+# 开服后是否解冻之前未解冻的生物?
+# 警告: 这一选项会加载区块并可能导致卡顿.
+unfreeze-cached-chunks-on-startup: false
+
+# 每多少刻解冻生物?
+ticks-per-cached-chunk-unfreeze: 5
+
+# 你是否使用Paper服务端? 如果是的话, 请启用这些异步处理冻结缓存任务.
+use-paper-get-chunk-async: false
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  被动冻结参数                                                                                        |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: passive_freeze_parameters
+
+# 冻结哪一组生物?
+passive-freeze-groups:
+#  - dense_animal_farm
+
+# 不冻结哪一组生物?
+passive-freeze-exclude-groups:
+
+# nerf哪一组生物?
+passive-nerf-groups:
+  - animal_farm
+
+# 不nerf哪一组生物?
+passive-nerf-exclude-groups:
+#  - dense_animal_farm
+
+# 是否解冻/unnerf 之前被动时不再以上组内但被冻结/nerfed的生物？
+# 
+#   * 举个例子: 如果一头在大型动物农场内的牛被冻结了，
+#     且生物农场内的其他生物都被杀死了,那么这头牛就会被解冻
+passive-do-cleanup: true
+
+# 冻结生物时是否发送消息至控制台?
+passive-freeze-broadcast-to-console: false
+
+# 是否在冻结生物时发送给拥有 'saml.notify'权限的玩家?
+passive-freeze-broadcast-to-ops: false
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  Tps冻结参数                                                                                        |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: passive_freeze_parameters
+
+# 在运行TPS冻结任务时冻结哪几组生物？
+tps-freeze-groups:
+  - default_group # <- 请查看 'Default group settings' 部分设置的组名.
+  - lag_causers
+#  - default_singular # <- 冻结所有生物!
+
+# 不冻结哪几组生物?
+tps-freeze-exclude-groups:
+
+# nerf哪几组生物?
+tps-nerf-groups:
+
+# 不nerf哪几组生物？
+tps-nerf-exclude-groups:
+
+# 服务器TPS低于这个值时开始冻结.
+tps-freezing-threshold: 18.5
+
+# 当服务器TPS回升至这个数值时即开始解冻生物。
+#   * 这个数值必须高于tps-freezing-threshold设置的数值!
+tps-unfreezing-threshold: 19.5
+
+# 在插件开始解冻生物之前，测试程序集至少应该远离tps-unfreezing-threshold多少个标准差
+#   * TPS的标准差有效地衡量了稳定性. 这个设置可以让插件
+#     只在TPS稳定时解冻怪物。
+#   * 数值越高则所需稳定性门槛越高。
+#   * 最佳数值范围为1到5.
+tps-unfreeze-confidence-range: 2.5
+
+# 一次最多解冻多少只生物?
+tps-unfreeze-limit: 40
+
+# 特定生物为解冻上限增加的权重
+#   * 如果没有设置，生物默认增加1.
+#   * 举个例子: 如果掠夺者的权重为10并且解冻上限为40,
+#     那么一次最多解冻4只掠夺者,因为 4 * 10 = 40.
+#   * 如果解冻上限为 40, 且鸡的权重为41
+#     则不会解冻鸡.
+tps-unfreeze-weights:
+  PILLAGER: 8
+  VILLAGER: 4
+  fish: 2
+
+# 最小等待解冻毫秒数
+tps-minimum-freeze-time: 300000
+
+# 是否解冻/unnerf之前TPS冻结的生物,而不影响生物当前状态？
+# 
+#   * 相比于被动冻结任务这个设置没那么重要
+#     
+tps-do-cleanp: false
+
+# 是否在开始/完成TPS冻结任务时发送消息到控制台?
+#   * 发送的消息可在messages.yml内设置.
+tps-freeze-broadcast-to-console: true
+
+# 是否在开始/完成TPS冻结任务时发送消息给拥有'saml.notify权限的玩家?
+#   * 发送的消息可在messages.yml内设置.
+tps-freeze-broadcast-to-ops: false
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  TPS计算器设置                                                                                 |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: tps_calculator_settings
+
+# 多少刻后计算TPS?
+tps-sample-size: 900
+
+# TPS平均权重
+# 
+tps-weighting-factor: 0.995
+
+# 计算多少刻内的平均TPS？
+tps-smoothing-sample-size: 400
+
+# 是否使用构建中的Minecraft TPS?
+#   * 如果开启这一选项那么 tps-sample-size 的设置将失效。 样本大小会固定为1分钟(1200刻)
+use-nms-tps: false
+
+# 每隔多少刻获取用于计算标准差的TPS样本?
+tps-deviation-sample-rate: 50
+
+# 包含入标准差计算的TPS样本数
+#   * 推荐数值： (tps-deviation-sample-rate)*(tps-deviation-sample-size) ≈ 2*(ticks-per-operation)
+#     
+tps-deviation-sample-size: 24
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  通用冻结参数                                                                                                      |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: generic_freeze_parameters
+
+# 多少毫秒执行一次冻结操作?
+#   * 如果数值过高则可能会在插件冻结时造成卡顿(除非你开启了use-async-grouping)
+#   * 如果数值过低则插件没有足够的时间来为所有的实体分组.
+#   * 如果你关闭了 use-async-grouping ，那么这个数值最好设置为500以下来避免卡顿.
+maximum-operation-time: 5000
+
+# 是否异步运行怪物分组算法?
+#   * 启用这项不会让服务器在冻结时卡顿.
+#   * 你没有关闭这个选项的里有; 这个选项存在的原因就是为了防止异步分组时出现报错.
+use-async-grouping: true
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  默认分组设置                                                                                                      |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: default_group_settings
+
+# 每组怪物数上限及范围
+# 
+group-minimum-size: 10
+group-maximum-radius: 8.0
+
+# 是否只对同一类型的生物分组?
+#   * 如果启用这些那么包含2匹马、3头猪和4头牛的一组生物不会被视为一个组
+#     但10只鸡可视为一个组.
+#   * 如果你只需要冻结农场的话可开启这个选项.
+group-require-same-type: false
+
+# 是否根据服务器卡顿情况而扫描一个组的最大范围和最小尺寸?
+group-use-smart-scaling: true
+
+# 扫描的最小尺寸和最大范围
+group-minimum-scaled-size: 5
+group-maximum-scaled-radius: 20
+
+# TPS超过上限的比例
+#   * 比如当TPS达到 minimum-scale-tps-ratio * tps-freezing-threshold ，那么最小尺寸和最大范围
+#     将大于以上数值.
+group-minimum-scale-tps-ratio: 0.50
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  兼容性设置                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: compatibility_settings
+
+# 忽略列表中拥有元数据的生物
+#   * 插件可以给实体添加元数据来让其他插件辨识出不同的生物
+#   * 如果SAML 干预了其他插件的生物, 请联系插件开发者以添加这些插件的生物的元数据
+ignore-metadata:
+  - Elitemob  # 忽略EliteMobs插件的精英怪物.
+  - Elitemobs_NPC # 忽略EliteMobs插件的NPC.
+  - infernalMetadata # 忽略infernal mobs插件的怪物.
+  - NPC # 忽略Citizens插件的NPC.
+  - shopkeeper # 忽略shopkeepers插件的NPC.
+  - mythicmob
+#  - Supermob  # 忽略EliteMobs精英怪物插件的超级融合生物.
+
+# 不冻结生物的世界.
+ignore-world:
+  - example_world_the_end
+
+# 是否只冻结已被 SAML 标记的生物(比如插件已冻结过的生物)?
+#   * 如果你使用了其他冻结生物的插件请开启这一选项
+#    
+#   * 请注意1.14之前的版本无法在服务器重启后保留元数据，所以如果这个选项开启了的话，
+#     且一些实体在服务器重启后仍被冻结的话，SAML不会解冻这些实体.
+only-unfreeze-tagged: true
+
+# 是否在区块卸载时解冻生物?
+unfreeze-on-unload: true
+
+# 是否在卸载插件时解冻所有已加载的生物?
+unfreeze-on-shutdown: true
+
+# section-end
+# +--------------------------------------------------------------------------------------------------------------------+
+# |  游戏设置                                                                                                          |
+# +--------------------------------------------------------------------------------------------------------------------+
+# section-begin: gameplay_settings
+
+# 是否停止被冻结的怪物追踪玩家?
+#   * 这个选项同时也阻止玩家攻击被冻结的生物.
+prevent-targeting-frozen: true
+
+# 被冻结的生物是否无敌?
+prevent-damaging-frozen: true
+
+# 是否阻止玩家对被冻结的生物造成伤害?
+prevent-player-damaging-frozen: false
+
+# 是否阻止玩家与被冻结的生物进行交互?
+unfreeze-on-interact: true
+
+# 当TPS低于这个数值时插件会忽略以上选项并且不会解冻交互中的生物
+#   * 设置为0关闭.
+unfreeze-on-interact-tps-threshold: 0
+
+# 是否在生物受到伤害时解冻?
+unfreeze-on-damage: true
+
+# 当TPS低于这个数值时插件会忽略以上选项并且不会解冻受到伤害的生物
+#   * 设置为0关闭.
+unfreeze-on-damage-tps-threshold: 0
+
+# 是否不冻结被驯服的生物 (猫、狗、马...) ?
+ignore-tamed: true
+
+# 当TPS低于这个数值时插件会忽略以上选项并且不会解冻被驯服的生物
+#   * 设置为0关闭.
+ignore-tamed-tps-threshold: 0
+
+# 是否忽略已命名的生物?
+ignore-named: true
+
+# 当TPS低于这个数值插件会忽略以上选项并冻结命名的生物
+#   * 设置为0关闭.
+ignore-named-tps-threshold: 0
+
+# 是否忽略被拴绳拴住的生物?
+ignore-leashed: true
+
+# 当TPS低于这个数值插件会忽略以上选项并冻结被拴绳拴住的生物
+#   * 设置为0关闭.
+ignore-leashed-tps-threshold: 0
+
+# 是否忽略交配中的生物?
+ignore-love-mode: true
+
+# 当TPS低于这个数值插件会忽略以上选项并冻结交配中的生物
+#   * 设置为0关闭.
+ignore-love-mode-tps-threshold: 0
+
+# 忽略玩家多少格范围内的生物?
+#   * 请注意这个检测会比较频繁. 如果你的服务器有很多玩家那么这个选项可能会使
+#     冻结操作耗时更久.
+#   * 设置为0关闭.
+ignore-player-proximity: 0
+
+# 当TPS低于这个数值插件会忽略以上选项并冻结生物
+#   * 设置为0关闭.
+ignore-player-proximity-tps-threshold: 0
+
+# 是否忽略图样图森破的生物（年龄按刻计算）?
+#   * 这个选项可以让你高效地忽略最新生成的生物.
+#     这个选项用于防止特定类型的刷怪场或刷怪塔很有用
+#   * 设置为0关闭.
+ignore-younger-than-ticks: 600
+
+# 当TPS低于这个数值插件会忽略以上选项并冻结生物
+#   * 设置为0关闭.
+ignore-younger-than-ticks-tps-threshold: 0
+
+# 是否忽略指向玩家的生物(如攻击玩家的生物)?
+ignore-target-player: true
+
+# 当TPS低于这个数值插件会忽略以上选项并冻结生物
+#   * 设置为0关闭.
+ignore-target-player-tps-threshold: 0
+
+# 不冻结的生物类型.
+#   * 实体名列表： https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html .
+#   * 请注意大小写!
+never-freeze:
+  - PILLAGER
+  - VINDICATOR
+  - VEX
+  - WITCH
+  - RAVAGER
+  - ILLUSIONER
+  - EVOKER
+
+# 当TPS低于这个数值插件会忽略以上列表内的生物并冻结
+#   * 设置为0关闭.
+never-freeze-tps-threshold: 0
+
+# section-end
