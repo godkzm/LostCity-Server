@@ -1,0 +1,72 @@
+(11:25:21) Matrix Enabled!
+(11:25:21) Version: 4.3.5
+(12:11:06) God_KZM failed Fly check | suspicious movement:0.5 predict:0.5 vel:0.333 air_t:1 tag:vt (+5) | vl:5 ping:0 TPS:20.0 lp:0 component: fly.main
+(12:11:06) God_KZM failed Fly check | step | p:3 (+4) | vl:9 ping:0 TPS:20.0 lp:0 component: speed.step
+(12:12:39) God_KZM failed Block check | break block too fast (digs: 14/18, hardness: 0.6, block: grass_block) (+4) | vl:4 ping:110 TPS:20.0 lp:4 component: block.fastbreak.expect
+(12:24:38) God_KZM failed Speed check | suspicious movement (move: 0.373, expect: 0.3665, tag: ea) (+4) | vl:4 ping:120 TPS:20.0 lp:6 component: speed.main
+(13:07:25) fantasy_huan failed Block check | abort breaking (at: -8.0,64.0,27.0, type: yellow_concrete) (+0) | vl:0 ping:112 TPS:20.0 lp:0 component: block.abort
+(13:18:55) Mr_TCG failed Scaffold check | right click too fast (cps: 31 length: 997) (+1) | vl:1 ping:172 TPS:20.0 lp:9 component: sfd.clk
+(13:21:27) Mr_TCG failed HitBox check | missed entity hitbox (entity: enderman, offset: 2.953) (+1) | vl:1 ping:139 TPS:19.99 lp:11 component: hb.mis
+(13:22:59) Mr_TCG failed Speed check | suspicious movement (move: 0.288, expect:0.2873, t:0, tag: a) (+4) | vl:4 ping:181 TPS:20.0 lp:2 component: speed.main
+(13:23:02) Mr_TCG failed Speed check | suspicious movement (move: 0.288, expect:0.2873, t:0, tag: a) (+4) | vl:8 ping:181 TPS:20.0 lp:2 component: speed.main
+(13:23:03) fantasy_huan failed Chat check | chat too fast | delay: 1775 (+1) | vl:1 ping:127 TPS:20.0 lp:157 component: chat.delay
+(13:23:34) Mr_TCG failed Speed check | suspicious movement (move: 0.128, expect:0.128, t:15, tag: a) (+4) | vl:4 ping:135 TPS:20.0 lp:36 component: speed.main
+(13:23:36) Mr_TCG failed Speed check | suspicious movement (move: 0.132, expect:0.128, t:39, tag: a) (+4) | vl:8 ping:135 TPS:20.0 lp:36 component: speed.main
+(13:23:36) Mr_TCG failed Speed check | suspicious movement (move: 0.133, expect:0.128, t:49, tag: a) (+4) | vl:12 ping:135 TPS:20.0 lp:36 component: speed.main
+(13:23:39) Mr_TCG failed Speed check | suspicious movement (move: 0.133, expect:0.128, t:71, tag: a) (+8) | vl:20 ping:135 TPS:19.99 lp:16 component: speed.main
+(13:23:59) Mr_TCG failed Speed check | suspicious movement (move: 0.378, predict: 0.345, friction: 0.6, ground:false, motY: 0.248, increase:0.026, preMove:0.319, motion: -0.144,0.248,-0.35, attribute: 0.13, tag: pred) (+4) | vl:24 ping:134 TPS:20.0 lp:2 component: move.xz
+(13:26:01) Mr_TCG failed Phase check | moved into block (block: purpur_block, move: -0.003,-0.155,0.004, at: -1214.703,87.266,-238.352, dist: 0.005, block_collisions: {minX=-1216.0, minY=89.0, minZ=-239.0, maxX=-1215.0, maxY=90.0, maxZ=-238.0}, high: 87.26636799395752, loop: false, async) (+1) | vl:1 ping:139 TPS:20.0 lp:28 component: phase.main
+(13:26:53) Mr_TCG failed Fly check | ground spoof (expect: +-, move: 0.146,-0.078,0.034, at: -1218.774,103.422,-219.675, type: air) (+4) | vl:4 ping:138 TPS:20.0 lp:3 component: fly.gf
+(13:27:14) Mr_TCG failed KillAura check | (autoclicker) click delay pattern | 1.9+ delay | avg: 500 diff: 9 (+4) | vl:4 ping:138 TPS:20.0 lp:3 component: ka.ac.9p
+(13:27:14) Execute command: matrix npc Mr_TCG 100
+(13:27:15) Mr_TCG failed KillAura check | (autoclicker) click delay pattern | 1.9+ delay | avg: 500 diff: 6 (+4) | vl:8 ping:138 TPS:20.0 lp:3 component: ka.ac.9p
+(13:27:15) Mr_TCG failed KillAura check | (autoclicker) click delay pattern | 1.9+ delay | avg: 500 diff: 5 (+4) | vl:12 ping:138 TPS:19.98 lp:3 component: ka.ac.9p
+(13:29:09) Mr_TCG failed Fly check | step | p:3 (+3) | vl:3 ping:135 TPS:20.0 lp:18 component: speed.step
+(13:29:10) Mr_TCG failed Fly check | suspicious movement:0.5 predict:0.5 vel:0.333 air_t:1 tag:vt (+4) | vl:7 ping:135 TPS:20.0 lp:18 component: fly.main
+(13:29:10) Mr_TCG failed Fly check | step | p:3 (+3) | vl:10 ping:135 TPS:20.0 lp:18 component: speed.step
+(13:29:10) Mr_TCG failed Fly check | suspicious movement:0.5 predict:0.5 vel:-0.075 air_t:1 tag:vt (+4) | vl:14 ping:135 TPS:20.0 lp:18 component: fly.main
+(13:33:05) Donalo_ failed Fly check | suspicious movement:0.191 predict:-0.05 pmv:0.275 tag:ground (+2) | vl:2 ping:121 TPS:19.98 lp:134 component: fly.main
+(13:33:05) Donalo_ failed Fly check | suspicious movement:0.109 predict:-0.128 pmv:0.191 tag:ground (+2) | vl:4 ping:121 TPS:19.98 lp:134 component: fly.main
+(13:33:05) Donalo_ failed Fly check | suspicious movement:0.028 predict:-0.204 pmv:0.109 tag:ground (+2) | vl:6 ping:121 TPS:19.98 lp:134 component: fly.main
+(13:33:06) Donalo_ failed Fly check | suspicious movement:0.191 predict:-0.05 pmv:0.275 tag:ground (+2) | vl:8 ping:121 TPS:19.98 lp:134 component: fly.main
+(13:33:06) Donalo_ failed Fly check | suspicious movement:0.109 predict:-0.128 pmv:0.191 tag:ground (+2) | vl:10 ping:121 TPS:19.98 lp:134 component: fly.main
+(13:33:06) Donalo_ failed Fly check | suspicious movement:0.028 predict:-0.204 pmv:0.109 tag:ground (+2) | vl:12 ping:121 TPS:19.98 lp:134 component: fly.main
+(13:33:07) Donalo_ failed Fly check | suspicious movement:0.191 predict:-0.05 pmv:0.275 tag:ground (+2) | vl:14 ping:121 TPS:20.0 lp:134 component: fly.main
+(13:33:07) Donalo_ failed Fly check | suspicious movement:0.109 predict:-0.128 pmv:0.191 tag:ground (+2) | vl:16 ping:121 TPS:20.0 lp:134 component: fly.main
+(13:33:08) Donalo_ failed Fly check | suspicious movement:0.028 predict:-0.204 pmv:0.109 tag:ground (+2) | vl:18 ping:121 TPS:20.0 lp:134 component: fly.main
+(13:33:13) Donalo_ failed Fly check | suspicious movement:0.191 predict:-0.05 pmv:0.275 tag:ground (+2) | vl:20 ping:121 TPS:20.0 lp:108 component: fly.main
+(13:33:13) Donalo_ failed Fly check | suspicious movement:0.109 predict:-0.128 pmv:0.191 tag:ground (+2) | vl:22 ping:121 TPS:20.0 lp:108 component: fly.main
+(13:33:13) Donalo_ failed Fly check | suspicious movement:0.028 predict:-0.204 pmv:0.109 tag:ground (+2) | vl:24 ping:121 TPS:20.0 lp:108 component: fly.main
+(13:33:14) Donalo_ failed Fly check | suspicious movement:0.191 predict:-0.05 pmv:0.275 tag:ground (+2) | vl:26 ping:121 TPS:20.0 lp:108 component: fly.main
+(13:33:14) Donalo_ failed Fly check | suspicious movement:0.109 predict:-0.128 pmv:0.191 tag:ground (+2) | vl:28 ping:121 TPS:20.0 lp:108 component: fly.main
+(13:33:14) Donalo_ failed Fly check | suspicious movement:0.028 predict:-0.204 pmv:0.109 tag:ground (+2) | vl:30 ping:121 TPS:20.0 lp:108 component: fly.main
+(13:33:21) Donalo_ failed Fly check | suspicious movement:0.191 predict:-0.05 pmv:0.275 tag:ground (+4) | vl:34 ping:121 TPS:19.99 lp:10 component: fly.main
+(13:33:21) Donalo_ failed Fly check | suspicious movement:0.109 predict:-0.128 pmv:0.191 tag:ground (+4) | vl:38 ping:121 TPS:19.99 lp:10 component: fly.main
+(13:33:21) Donalo_ failed Fly check | suspicious movement:0.028 predict:-0.204 pmv:0.109 tag:ground (+4) | vl:42 ping:121 TPS:19.99 lp:10 component: fly.main
+(13:34:49) God_KZM failed Speed check | suspicious movement (move: 0.134, expect:0.128, t:100, tag: a) (+9) | vl:9 ping:5 TPS:19.99 lp:5 component: speed.main
+(13:35:01) God_KZM failed Speed check | suspicious movement (move: 0.134, expect:0.128, t:100, tag: a) (+9) | vl:18 ping:5 TPS:19.99 lp:1 component: speed.main
+(13:35:42) Mr_TCG failed Fly check | suspicious movement:0.5 predict:0.5 vel:0.333 air_t:1 tag:vt (+5) | vl:5 ping:0 TPS:20.0 lp:9 component: fly.main
+(13:35:42) Mr_TCG failed Fly check | step | p:3 (+4) | vl:9 ping:0 TPS:20.0 lp:9 component: speed.step
+(13:35:44) God_KZM failed Speed check | suspicious movement (move: 0.134, expect:0.128, t:76, tag: a) (+9) | vl:9 ping:15 TPS:19.99 lp:24 component: speed.main
+(13:35:46) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 2.194) (+2) | vl:2 ping:15 TPS:20.0 lp:10 component: hb.mis
+(13:35:52) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 1.457) (+1) | vl:3 ping:15 TPS:19.99 lp:10 component: hb.mis
+(13:35:58) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 1.467) (+1) | vl:4 ping:15 TPS:20.0 lp:10 component: hb.mis
+(13:36:12) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 1.125) (+1) | vl:1 ping:15 TPS:20.0 lp:7 component: hb.mis
+(13:36:31) God_KZM failed Speed check | suspicious movement (move: 0.13, expect:0.128, t:39, tag: a) (+9) | vl:9 ping:10 TPS:19.99 lp:7 component: speed.main
+(13:36:32) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 1.655) (+1) | vl:2 ping:10 TPS:19.99 lp:7 component: hb.mis
+(13:38:34) God_KZM failed Chat check | chat too fast | delay: 2677 (+1) | vl:1 ping:14 TPS:19.99 lp:2 component: chat.delay
+(13:39:33) God_KZM failed Fly check | suspicious movement:0.42 predict:-0.075 pmv:0.5 tag:ground (+5) | vl:5 ping:12 TPS:20.0 lp:4 component: fly.main
+(13:39:52) God_KZM failed Chat check | chat too fast | delay: 1751 (+1) | vl:1 ping:13 TPS:20.0 lp:12 component: chat.delay
+(13:41:18) God_KZM failed Fly check | suspicious movement:-0.445 predict:-0.078 lm:0.0 hard_pred:-0.078 sev_pred:-0.374 air_t:1 fall_t:1 g:-- tag:gn (+5) | vl:5 ping:14 TPS:20.0 lp:20 component: fly.main
+(13:46:07) God_KZM failed Speed check | suspicious movement (move: 0.476, expect: 0.469, g_tk:1, tag: b) (+8) | vl:8 ping:3 TPS:20.0 lp:0 component: speed.main
+(13:46:41) God_KZM failed Speed check | suspicious movement (move: 0.287, expect:0.2873, t:0, tag: a) (+9) | vl:9 ping:4 TPS:20.0 lp:1 component: speed.main
+(13:48:15) God_KZM failed Speed check | suspicious movement (move: 0.14, expect:0.128, t:41, tag: a) (+9) | vl:9 ping:2 TPS:20.0 lp:2 component: speed.main
+(13:48:28) God_KZM failed Block check | break block too fast (digs: 3/22, hardness: 3.0, block: end_stone) (+4) | vl:4 ping:3 TPS:19.98 lp:15 component: block.fastbreak.expect
+(13:48:49) God_KZM failed Scaffold check | scaffold | type: simple (+3) | vl:3 ping:2 TPS:19.99 lp:4 component: sfd.simple
+(13:50:26) God_KZM failed Scaffold check | scaffold | type: simple (+3) | vl:3 ping:8 TPS:20.0 lp:46 component: sfd.simple
+(13:51:09) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 1.505) (+1) | vl:1 ping:7 TPS:20.0 lp:14 component: hb.mis
+(13:56:40) God_KZM failed Speed check | suspicious movement (move: 0.442, expect: 0.43999999999999995, tag: c) (+10) | vl:10 ping:7 TPS:20.0 lp:4 component: speed.main
+(13:58:14) God_KZM failed Scaffold check | scaffold | type: simple (+3) | vl:3 ping:13 TPS:19.99 lp:30 component: sfd.simple
+(13:59:36) God_KZM failed HitBox check | missed entity hitbox (entity: enderman, offset: 2.21) (+2) | vl:2 ping:4 TPS:20.0 lp:40 component: hb.mis
+(14:00:52) God_KZM failed Chat check | chat too fast | delay: 1966 (+1) | vl:1 ping:17 TPS:20.0 lp:17 component: chat.delay
+(14:00:54) God_KZM failed Chat check | chat too fast | delay: 1483 (+1) | vl:2 ping:17 TPS:20.0 lp:17 component: chat.delay

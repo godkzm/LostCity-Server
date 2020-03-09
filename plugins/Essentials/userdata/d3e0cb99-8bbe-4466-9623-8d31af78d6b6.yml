@@ -1,0 +1,20 @@
+lastAccountName: fantasy_huan
+timestamps:
+  login: 1583731123892
+  lastteleport: 1583731365092
+  logout: 1583731420145
+ipAddress: 127.0.0.1
+lastlocation:
+  world: spawn
+  x: 11.440832747898275
+  y: -229.66702979723667
+  z: -4.603389439429648
+  yaw: 179.50165
+  pitch: -85.83566
+logoutlocation:
+  world: spawn
+  x: 19.38597076566716
+  y: 59.0
+  z: -6.50207303807007
+  yaw: -66.95051
+  pitch: -0.62577534

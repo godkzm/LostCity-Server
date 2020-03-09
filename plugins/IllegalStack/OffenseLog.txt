@@ -1,0 +1,2 @@
+February 9 2020 (11:25:18) - God_KZM has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=world_nether},x=1.8352657870854392,y=128.0,z=4.0882577479602915,pitch=50.999992,yaw=-124.65007}
+February 9 2020 (11:25:18) - God_KZM has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=world_nether},x=1.597106418076434,y=128.7531999805212,z=4.192852975489046,pitch=39.29999,yaw=-180.15001}

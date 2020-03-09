@@ -1,5 +1,5 @@
 Economy:
-  Enabled: true
+  Enabled: false
   Price: 20
 CustomWorlds:
   Enabled: false

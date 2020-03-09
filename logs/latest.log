@@ -1,0 +1,914 @@
+[11:24:57] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[11:24:57] [Server thread/INFO]: Loading properties
+[11:24:57] [Server thread/INFO]: This server is running Paper version git-Paper-129 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[11:24:57] [Server thread/INFO]: Debug logging is disabled
+[11:24:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:24:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:24:58] [Server thread/INFO]: Default game type: SURVIVAL
+[11:24:58] [Server thread/INFO]: Generating keypair
+[11:24:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:24:58] [Server thread/INFO]: Using default channel type
+[11:25:00] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:25:07] [Server thread/WARN]: Legacy plugin AntiAttack v1.0.0 does not specify an api-version.
+[11:25:07] [Server thread/WARN]: Legacy plugin MiaoBoard v2.5.0-git-fdf05fc1c0c21b8fb30cf99ccb58d20e396ebfc7 does not specify an api-version.
+[11:25:07] [Server thread/WARN]: Legacy plugin ServerListPlus v3.4.8 does not specify an api-version.
+[11:25:07] [Server thread/WARN]: Legacy plugin MiaoChat v1.8.9-git-f22113584d750a8d95fb5df80d226af9abc4e80e does not specify an api-version.
+[11:25:09] [Server thread/WARN]: Legacy plugin BetterRTP v2.10.0 does not specify an api-version.
+[11:25:09] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.83
+[11:25:09] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[11:25:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@632efe7e]
+[11:25:10] [Server thread/INFO]: [EntityTrackerFixer] Loading EntityTrackerFixer v1.2.2
+[11:25:10] [Server thread/INFO]: [SAML] Loading SAML v2.0.0
+[11:25:10] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.4
+[11:25:10] [Server thread/INFO]: [VillagerOptimiser] Loading VillagerOptimiser v1.1.2
+[11:25:10] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.0.10c
+[11:25:10] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[11:25:10] [Server thread/INFO]: [ChestSort] Loading ChestSort v7.1
+[11:25:10] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0
+[11:25:10] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
+[11:25:10] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:25:10] [Server thread/INFO]: [AntiAttack] Loading AntiAttack v1.0.0
+[11:25:10] [Server thread/INFO]: [MiaoBoard] Loading MiaoBoard v2.5.0-git-fdf05fc1c0c21b8fb30cf99ccb58d20e396ebfc7
+[11:25:10] [Server thread/INFO]: [ExploitFixer] Loading ExploitFixer v1.2.0
+[11:25:10] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.0.0-SNAPSHOT
+[11:25:10] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[11:25:10] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[11:25:10] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.18.2
+[11:25:10] [Server thread/INFO]: [MiaoChat] Loading MiaoChat v1.8.9-git-f22113584d750a8d95fb5df80d226af9abc4e80e
+[11:25:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.1
+[11:25:10] [Server thread/INFO]: [Matrix] Loading Matrix v4.3.5
+[11:25:10] [Server thread/INFO]: [Jobs] Loading Jobs v4.15.5
+[11:25:10] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
+[11:25:10] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v4.453
+[11:25:10] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[11:25:10] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.2.0
+[11:25:10] [Server thread/INFO]: [Residence] Loading Residence v4.8.8.2
+[11:25:10] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.1
+[11:25:10] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v2.10.0
+[11:25:10] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.1
+[11:25:10] [Server thread/INFO]: [QuickShop] Loading QuickShop v3.1.4.11
+[11:25:10] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Log4J has been enabled as logging system.[m
+[11:25:10] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Loading up integration modules.[m
+[11:25:10] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.2
+[11:25:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:25:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.83
+[11:25:11] [Server thread/INFO]:         __    
+[11:25:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.83
+[11:25:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:25:11] [Server thread/INFO]: 
+[11:25:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:25:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:25:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:25:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:25:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1412ms)
+[11:25:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[11:25:12] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:25:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[11:25:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0
+[11:25:13] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[11:25:13] [Server thread/INFO]: [ExploitFixer] Enabling ExploitFixer v1.2.0
+[11:25:13] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.0.0-SNAPSHOT
+[11:25:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[11:25:14] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.1 which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:25:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:25:14] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[11:25:14] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:14] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:25:14] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:25:14] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v4.453
+[11:25:15] [Server thread/INFO]: Version is PlotSquared-4.453
+[11:25:15] [Server thread/INFO]: [µØÆ¤ÏµÍ³] PlotSquared is using online UUIDs
+[11:25:16] [Server thread/INFO]: PlotSquared Scripting Test
+[11:25:16] [Server thread/INFO]: [µØÆ¤ÏµÍ³] PlotSquared hooked into WorldEdit.
+[11:25:16] [Server thread/INFO]: [µØÆ¤ÏµÍ³] PlotSquared ÏÖÒÑÆôÓÃ
+[11:25:16] [Server thread/INFO]: [µØÆ¤ÏµÍ³] Metrics enabled.
+[11:25:16] [Server thread/INFO]: Preparing level "world"
+[11:25:16] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[11:25:16] [Server thread/INFO]: Loaded 6 recipes
+[11:25:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:25:17] [Server thread/INFO]: View Distance: 6
+[11:25:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:17] [Server thread/INFO]: Item Merge Radius: 4.0
+[11:25:17] [Server thread/INFO]: Item Despawn Rate: 5000
+[11:25:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[11:25:17] [Server thread/INFO]: Arrow Despawn Rate: 600 Trident Respawn Rate:1200
+[11:25:17] [Server thread/INFO]: Experience Merge Radius: 6.0
+[11:25:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:17] [Server thread/INFO]: Mob Spawn Range: 3
+[11:25:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:25:17] [Server thread/INFO]: Entity Activation Range: An 20 / Mo 30 / Ra 50 / Mi 5 / Tiv true
+[11:25:17] [Server thread/INFO]: Entity Tracking Range: Pl 50 / An 50 / Mo 50 / Mi 32 / Other 64
+[11:25:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:25:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:17] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:17] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[11:25:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:25:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:25:18] [Server thread/INFO]: View Distance: 6
+[11:25:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:18] [Server thread/INFO]: Item Merge Radius: 4.0
+[11:25:18] [Server thread/INFO]: Item Despawn Rate: 5000
+[11:25:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[11:25:18] [Server thread/INFO]: Arrow Despawn Rate: 600 Trident Respawn Rate:1200
+[11:25:18] [Server thread/INFO]: Experience Merge Radius: 6.0
+[11:25:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Mob Spawn Range: 3
+[11:25:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:25:18] [Server thread/INFO]: Entity Activation Range: An 20 / Mo 30 / Ra 50 / Mi 5 / Tiv true
+[11:25:18] [Server thread/INFO]: Entity Tracking Range: Pl 50 / An 50 / Mo 50 / Mi 32 / Other 64
+[11:25:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:25:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:18] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:18] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[11:25:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:25:18] [Server thread/INFO]: View Distance: 6
+[11:25:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:18] [Server thread/INFO]: Item Merge Radius: 4.0
+[11:25:18] [Server thread/INFO]: Item Despawn Rate: 5000
+[11:25:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[11:25:18] [Server thread/INFO]: Arrow Despawn Rate: 600 Trident Respawn Rate:1200
+[11:25:18] [Server thread/INFO]: Experience Merge Radius: 6.0
+[11:25:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:18] [Server thread/INFO]: Mob Spawn Range: 3
+[11:25:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:25:18] [Server thread/INFO]: Entity Activation Range: An 20 / Mo 30 / Ra 50 / Mi 5 / Tiv true
+[11:25:18] [Server thread/INFO]: Entity Tracking Range: Pl 50 / An 50 / Mo 50 / Mi 32 / Other 64
+[11:25:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:25:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:18] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:18] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[11:25:18] [Server thread/INFO]: [EntityTrackerFixer] Enabling EntityTrackerFixer v1.2.2
+[11:25:18] [Server thread/INFO]: [SAML] Enabling SAML v2.0.0
+[11:25:18] [Server thread/INFO]: [SAML] Loading config.yml...
+[11:25:18] [Server thread/INFO]: [SAML] Successfully loaded config.yml.
+[11:25:18] [Server thread/INFO]: [SAML] Loading custom_groups.yml...
+[11:25:18] [Server thread/INFO]: [SAML] Successfully loaded custom_groups.yml.
+[11:25:18] [Server thread/INFO]: [SAML] Loading nerfer_goals.yml...
+[11:25:18] [Server thread/INFO]: [SAML] Successfully loaded nerfer_goals.yml.
+[11:25:18] [Server thread/INFO]: [SAML] Loading messages.yml...
+[11:25:18] [Server thread/INFO]: [SAML] Successfully loaded messages.yml.
+[11:25:18] [Server thread/INFO]: [SAML] Successfully enabled.
+[11:25:18] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.4
+[11:25:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:25:18] [Server thread/INFO]: [VillagerOptimiser] Enabling VillagerOptimiser v1.1.2
+[11:25:18] [Server thread/INFO]: [VillagerOptimiser] Loading config.yml...
+[11:25:18] [Server thread/INFO]: [VillagerOptimiser] Successfully loaded config.yml.
+[11:25:18] [Server thread/INFO]: [VillagerOptimiser] Successfully enabled.
+[11:25:18] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v2.0.10c
+[11:25:18] [Server thread/INFO]: The following materials are allowed to have stacks larger than the vanilla size: POTION 
+[11:25:18] [Server thread/INFO]: [IllegalStack] Chat Components found!  Enabling clickable commands in /istack
+[11:25:18] [Server thread/INFO]: [Illegal Stack] - MC Version 1.14+ detected!
+[11:25:18] [Server thread/INFO]: Blocking 1.14 villager trade cheesing.
+[11:25:18] [Server thread/WARN]: [IllegalStack] Loaded class com.gmail.nossr50.events.skills.abilities.McMMOPlayerAbilityActivateEvent from mcMMO v2.0.0-SNAPSHOT which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:18] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[11:25:18] [Server thread/INFO]: 
+[11:25:18] [Server thread/INFO]:     __                      ____                                         _    _____
+[11:25:18] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+[11:25:18] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+[11:25:18] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+[11:25:18] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+[11:25:18] [Server thread/INFO]:             /____//____/
+[11:25:18] [Server thread/INFO]: 
+[11:25:18] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[11:25:18] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[11:25:18] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[11:25:18] [Server thread/INFO]: [ChestSort] Enabling ChestSort v7.1
+[11:25:18] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color}
+[11:25:18] [Server thread/INFO]: [ChestSort] Sorting enabled by default: false
+[11:25:18] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[11:25:18] [Server thread/INFO]: [ChestSort] Sort time: close
+[11:25:18] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[11:25:18] [Server thread/INFO]: [ChestSort] |- Middle-Click: true
+[11:25:18] [Server thread/INFO]: [ChestSort] |- Shift-Click: true
+[11:25:18] [Server thread/INFO]: [ChestSort] |- Double-Click: true
+[11:25:18] [Server thread/INFO]: [ChestSort] |- Shift-Right-Click: true
+[11:25:18] [Server thread/INFO]: [ChestSort] Check for updates: true
+[11:25:18] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (32), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[11:25:18] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:25:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:25:18] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:25:19] [Server thread/INFO]: [AntiAttack] Enabling AntiAttack v1.0.0*
+[11:25:19] [Server thread/INFO]: [AntiAttack] |·´Ñ¹²âÏµÍ³ - VRL2 ¼ÓÔØÖÐ...
+[11:25:19] [Server thread/INFO]: [AntiAttack] ÓÉÓÚÎÞ·¨Ê¶±ðµ½·þÎñÆ÷°æ±¾, Éè¶¨ÎªÎ´À´°æ±¾.
+[11:25:19] [Server thread/INFO]: [AntiAttack] |×÷ÕßÄËÀÖÀÖ¡ª¡ªQÈº664015345|
+[11:25:19] [Server thread/INFO]: [AntiAttack] |AntiAtttackRL ÄË AntiAttack µÄÖØÖÆ°æ
+[11:25:19] [Server thread/INFO]: [AntiAttack] |ÄÅ,ÎªÕâÃÀºÃµÄÊÀ½çÏ×ÉÏ×£¸£~
+[11:25:19] [Server thread/INFO]: [AntiAttack] |(ÂèµÄ°¢¿âæ«!) KO NO SU BA!
+[11:25:19] [Server thread/INFO]: [AntiAttack] |±¾²å¼þÊ¹ÓÃÁËGeoLite2ÍâÖÃ¿â!
+[11:25:19] [Server thread/INFO]: [AntiAttack] |Ð­ÒéÐÅÏ¢Çë²éÔÄjar°üÄÚReadme.txt
+[11:25:19] [Server thread/INFO]: [AntiAttack] |Ver337 ÔËÐÐÓÚ
+[11:25:19] [Server thread/INFO]: [AntiAttack] git-Paper-129 (MC: 1.15.2) Forge: false
+[11:25:19] [Server thread/INFO]: [AntiAttack] |---¼ÓÔØÍê³É¿©¿©¿©---|
+[11:25:19] [Server thread/INFO]: [MiaoBoard] Enabling MiaoBoard v2.5.0-git-fdf05fc1c0c21b8fb30cf99ccb58d20e396ebfc7*
+[11:25:19] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8*
+[11:25:19] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[11:25:19] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[11:25:19] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[11:25:19] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[11:25:19] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[11:25:19] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[11:25:19] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.18.2
+[11:25:19] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[11:25:19] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[11:25:19] [Server thread/INFO]: --------------------
+[11:25:19] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Check out CoreEdit!
+[11:25:19] [Server thread/INFO]: [CoreProtect] Download: www.coreedit.net/download/
+[11:25:19] [Server thread/INFO]: --------------------
+[11:25:19] [Server thread/INFO]: [MiaoChat] Enabling MiaoChat v1.8.9-git-f22113584d750a8d95fb5df80d226af9abc4e80e*
+[11:25:19] [Server thread/INFO]: [MiaoChat] Òì²½³õÊ¼»¯±¾µØ»¯¹¤¾ß...
+[11:25:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.1
+[11:25:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:25:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:25:19] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[11:25:19] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[11:25:19] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[11:25:19] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[11:25:19] [Server thread/INFO]: [Essentials] Using locale zh
+[11:25:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:25:20] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
+[11:25:20] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[11:25:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:25:20] [Server thread/INFO]: [Matrix] Enabling Matrix v4.3.5
+[11:25:20] [Thread-18/INFO]: [MiaoChat] ÅäÖÃ Item_zh_CN.yml À´×Ô YUMC Êý¾ÝÖÐÐÄ...
+[11:25:20] [Thread-18/INFO]: [MiaoChat] Ô¶³Ìºº»¯ÎÄ¼þ´ÊÌõÊýÁ¿: 1912
+[11:25:20] [Thread-18/INFO]: [MiaoChat] ±¾µØ»¯¹¤¾ß³õÊ¼»¯Íê±Ï...
+[11:25:20] [Server thread/INFO]:    _____
+[11:25:20] [Server thread/INFO]:   |  |  |   Matrix AntiCheat v4.3.5
+[11:25:20] [Server thread/INFO]:   |  |  |   Environment: git-Paper-129 (MC: 1.15.2)
+[11:25:20] [Server thread/INFO]: 
+[11:25:20] [Server thread/INFO]: [Matrix] Initializing the NMSVisitor (v1_15_R1)
+[11:25:20] [Server thread/INFO]: [Matrix] Enabled 20 checks, Disabled 0 checks
+[11:25:20] [Server thread/INFO]: [Matrix] Loaded all configuration files
+[11:25:20] [Server thread/INFO]: [Matrix] Initializing the thread pool (size: 10)
+[11:25:21] [Server thread/INFO]: [Matrix] Loaded 96 ML models
+[11:25:21] [Server thread/INFO]: [Matrix] Hooked with PlaceholderAPI
+[11:25:21] [Server thread/INFO]: [Jobs] Enabling Jobs v4.15.5
+[11:25:21] [Server thread/INFO]: [Jobs] PlaceholderAPI hooked.
+[11:25:21] [Server thread/INFO]: PlaceholderAPI was found - Enabling capabilities.
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 75 protected blocks timers!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 995 custom item names!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 67 custom entity names!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 37 custom enchant names!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[11:25:22] [Server thread/INFO]: [Jobs] Explorer job manager registered!
+[11:25:22] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[11:25:22] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[11:25:22] [Server thread/INFO]: [Jobs] Preloaded 5 players data in 0.01
+[11:25:22] [Server thread/INFO]: [Jobs] mcMMO was found - But your McMMO version is outdated, please update for full support.
+[11:25:22] [Server thread/WARN]: [Jobs] Loaded class com.gmail.nossr50.api.AbilityAPI from mcMMO v2.0.0-SNAPSHOT which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:22] [Server thread/INFO]: [Jobs] Registered McMMO 1.x listener
+[11:25:22] [Server thread/INFO]: [Jobs] WorldGuard detected.
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded 25 block protection entries. 0
+[11:25:22] [Server thread/INFO]: [Jobs] Loading explorer data
+[11:25:22] [Server thread/INFO]: [Jobs] Loaded explorer data (391)
+[11:25:22] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[11:25:22] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
+[11:25:23] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[11:25:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[11:25:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[11:25:23] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[11:25:23] [Server thread/INFO]: -------- World Settings For [spawn] --------
+[11:25:23] [Server thread/INFO]: View Distance: 6
+[11:25:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:23] [Server thread/INFO]: Item Merge Radius: 4.0
+[11:25:23] [Server thread/INFO]: Item Despawn Rate: 5000
+[11:25:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[11:25:23] [Server thread/INFO]: Arrow Despawn Rate: 600 Trident Respawn Rate:1200
+[11:25:23] [Server thread/INFO]: Experience Merge Radius: 6.0
+[11:25:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:23] [Server thread/INFO]: Mob Spawn Range: 3
+[11:25:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:25:23] [Server thread/INFO]: Entity Activation Range: An 20 / Mo 30 / Ra 50 / Mi 5 / Tiv true
+[11:25:23] [Server thread/INFO]: Entity Tracking Range: Pl 50 / An 50 / Mo 50 / Mi 32 / Other 64
+[11:25:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:25:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:23] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:23] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[11:25:23] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[11:25:23] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[11:25:23] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[11:25:23] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[11:25:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[11:25:24] [Server thread/INFO]: -------- World Settings For [plotsquared] --------
+[11:25:24] [Server thread/INFO]: View Distance: 6
+[11:25:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:24] [Server thread/INFO]: Item Merge Radius: 4.0
+[11:25:24] [Server thread/INFO]: Item Despawn Rate: 5000
+[11:25:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[11:25:24] [Server thread/INFO]: Arrow Despawn Rate: 600 Trident Respawn Rate:1200
+[11:25:24] [Server thread/INFO]: Experience Merge Radius: 6.0
+[11:25:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Mob Spawn Range: 3
+[11:25:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:25:24] [Server thread/INFO]: Entity Activation Range: An 20 / Mo 30 / Ra 50 / Mi 5 / Tiv true
+[11:25:24] [Server thread/INFO]: Entity Tracking Range: Pl 50 / An 50 / Mo 50 / Mi 32 / Other 64
+[11:25:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:25:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:24] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:24] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[11:25:24] [Server thread/INFO]: [µØÆ¤ÏµÍ³] Detected world load for 'plotsquared'
+[11:25:24] [Server thread/INFO]: [µØÆ¤ÏµÍ³]  - generator: PlotSquared>PlotSquared
+[11:25:24] [Server thread/INFO]: [µØÆ¤ÏµÍ³]  - plotworld: com.github.intellectualsites.plotsquared.plot.generator.HybridPlotWorld
+[11:25:24] [Server thread/INFO]: [µØÆ¤ÏµÍ³]  - plotAreaManager: com.github.intellectualsites.plotsquared.plot.generator.HybridPlotManager
+[11:25:24] [Server thread/INFO]: [WorldGuard] (plotsquared) TNT ignition is PERMITTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] (plotsquared) Lighters are PERMITTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] (plotsquared) Lava fire is PERMITTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] (plotsquared) Fire spread is UNRESTRICTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'plotsquared'
+[11:25:24] [Server thread/INFO]: -------- World Settings For [residence] --------
+[11:25:24] [Server thread/INFO]: View Distance: 6
+[11:25:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:24] [Server thread/INFO]: Item Merge Radius: 4.0
+[11:25:24] [Server thread/INFO]: Item Despawn Rate: 5000
+[11:25:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[11:25:24] [Server thread/INFO]: Arrow Despawn Rate: 600 Trident Respawn Rate:1200
+[11:25:24] [Server thread/INFO]: Experience Merge Radius: 6.0
+[11:25:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:24] [Server thread/INFO]: Mob Spawn Range: 3
+[11:25:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:25:24] [Server thread/INFO]: Entity Activation Range: An 20 / Mo 30 / Ra 50 / Mi 5 / Tiv true
+[11:25:24] [Server thread/INFO]: Entity Tracking Range: Pl 50 / An 50 / Mo 50 / Mi 32 / Other 64
+[11:25:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:25:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:24] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:24] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[11:25:24] [Server thread/INFO]: [WorldGuard] (residence) TNT ignition is PERMITTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] (residence) Lighters are PERMITTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] (residence) Lava fire is PERMITTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] (residence) Fire spread is UNRESTRICTED.
+[11:25:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'residence'
+[11:25:24] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[11:25:24] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[11:25:24] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[11:25:24] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[11:25:24] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.2.0
+[11:25:24] [Server thread/INFO]: [Residence] Enabling Residence v4.8.8.2
+[11:25:24] [Thread-20/WARN]: [ChestCommands] Could not contact BukkitDev to check for updates.
+[11:25:26] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:LuckPerms
+[11:25:26] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[11:25:26] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
+[11:25:26] [Server thread/INFO]: [Residence] Loading save data for world world...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded world data. (4 ms)
+[11:25:26] [Server thread/INFO]: [Residence] Loading save data for world world_nether...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded world_nether data. (1 ms)
+[11:25:26] [Server thread/INFO]: [Residence] Loading save data for world world_the_end...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded world_the_end data. (1 ms)
+[11:25:26] [Server thread/INFO]: [Residence] Loading save data for world spawn...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded spawn data. (0 ms)
+[11:25:26] [Server thread/INFO]: [Residence] Loading save data for world plotsquared...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded plotsquared data. (1 ms)
+[11:25:26] [Server thread/INFO]: [Residence] Loading save data for world residence...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded residence data. (1 ms)
+[11:25:26] [Server thread/INFO]: [Residence] Loading world data into memory...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded world data into memory. (0 ms) -> 0 residences
+[11:25:26] [Server thread/INFO]: [Residence] Loading world_nether data into memory...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms) -> 0 residences
+[11:25:26] [Server thread/INFO]: [Residence] Loading world_the_end data into memory...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms) -> 0 residences
+[11:25:26] [Server thread/INFO]: [Residence] Loading spawn data into memory...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded spawn data into memory. (0 ms) -> 0 residences
+[11:25:26] [Server thread/INFO]: [Residence] Loading plotsquared data into memory...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded plotsquared data into memory. (0 ms) -> 0 residences
+[11:25:26] [Server thread/INFO]: [Residence] Loading residence data into memory...
+[11:25:26] [Server thread/INFO]: [Residence] Loaded residence data into memory. (0 ms) -> 0 residences
+[11:25:26] [Server thread/INFO]: [Residence] Found WorldEdit 7.1.0;8e55131
+[11:25:26] [Server thread/INFO]: [Residence] Found WorldGuard 7.0.2-SNAPSHOT;bf2593e
+[11:25:27] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
+[11:25:27] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[11:25:27] [Server thread/INFO]: [Residence] Enabled! Version 4.8.8.2 by Zrips
+[11:25:27] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.1
+[11:25:27] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[11:25:27] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v2.10.0*
+[11:25:30] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.1
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Enabling QuickShop v3.1.4.11[m
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Quickshop Reremake[m
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Reading the configuration...[m
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Developers: BukkitCommonsStudio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne[m
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Original author: Netherfoam, Timtower, KaiNoMood[m
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Let's start loading the plugin[m
+[11:25:30] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Plugin now running under Paper mode.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] ·­ÒëÕß£º[0;36;1m[mMashirl happyvalley yzhh You_wen[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] ¿ª·¢¹±Ï×Õß£ºTimtower, Netherfoam, KaiNoMood and Mgazul[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] ±¾µØ»¯ÓïÑÔ£º¼òÌåÖÐÎÄ (zh_CN)[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Complete to load Itemname i18n.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Starting loading Enchantment i18n...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Complete to load enchname i18n.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Starting loading Potion i18n...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Complete to load potionname i18n.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Running QuickShop-Reremake on NMS version v1_15_R1 For Minecraft version 1.15.2[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Successfully loaded PlaceHolderAPI support![m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Selected permission provider: Bukkit[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Loading shops from the database...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Used 0ms to fetch all shops from the database.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Successfully loaded 0 shops! (Used 1ms, Avg 0ms per shop)[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Registering Listeners...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Registering DisplayCheck task....[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Cleaning MsgUtils...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Cleaning purchase messages from the database that are over a week old...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Registering UpdateWatcher...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Registering BStats Mertics...[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Metrics submitted.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] QuickShop Loaded! 1407 ms.[m
+[11:25:31] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Log actions is enabled, actions will log in the qs.log file![m
+[11:25:31] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.9.2
+[11:25:31] [Server thread/INFO]: [LockettePro] BURNING_FURNACE is not an item!
+[11:25:31] [Server thread/INFO]: [LockettePro] WOODEN_DOOR is not an item!
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:25:32] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: math
+[11:25:32] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.1.0-b775 which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: multiverse
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: pinger
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[11:25:32] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[11:25:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[11:25:32] [Server thread/INFO]: Done (16.512s)! For help, type "help"
+[11:25:32] [Server thread/INFO]: Timings Reset
+[11:25:32] [Craft Scheduler Thread - 18/INFO]: [Matrix] Start checking update....
+[11:25:32] [Craft Scheduler Thread - 4/INFO]: [mcMMO] Cleaned backup files. Deleted 12 of 17 files.
+[11:25:32] [Server thread/INFO]: [PlotSquared] -------- PlotSquared Update Check --------
+[11:25:32] [Server thread/INFO]: [PlotSquared] You appear to be running the latest version of PlotSquared. Congratulations!
+[11:25:32] [Server thread/INFO]: [PlotSquared] -------- PlotSquared Update Check --------
+[11:25:32] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[11:25:32] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[11:25:33] [Server thread/INFO]: [[0;33;1mQuickShop[m[m] Using economy system: Essentials Economy[m
+[11:25:33] [Craft Scheduler Thread - 13/INFO]: [ChestSort] Checking for available updates...
+[11:25:33] [Craft Scheduler Thread - 18/INFO]: > Matrix Updater:
+[11:25:33] [Craft Scheduler Thread - 18/INFO]:     You are using the latest version of Matrix-AntiCheat <3
+[11:25:34] [Craft Scheduler Thread - 19/INFO]: [Matrix] Plugin Enabled
+[11:25:34] [Craft Scheduler Thread - 9/INFO]: [AntiAttack] ÕýÔÚ¼ì²éÐÂ°æ±¾²å¼þ£¬ÇëÉÔµÈ...
+[11:25:34] [Craft Scheduler Thread - 9/INFO]: [AntiAttack] AAT²å¼þ¹¤×÷Á¼ºÃ£¬ÔÝÎÞÐÂ°æ±¾¼ì²â¸üÐÂ¡£
+[11:25:34] [Craft Scheduler Thread - 9/INFO]: [AntiAttack] ÕýÔÚ¶ÁÈ¡ÔÆ¹«¸æ...
+[11:25:34] [Craft Scheduler Thread - 9/INFO]: [AntiAttack] È«²¿ÍøÂç¹¤×÷¶¼¶ÁÈ¡Íê±ÏÁË...
+[11:25:34] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\ed270b13-c4b3-3b74-a6be-1b04cd66b815.yml
+[11:25:34] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\9d7fe071-d65c-32c5-870d-f01f4391f23d.yml
+[11:25:34] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\146a0bb3-6d3c-3c3a-a378-8c5bede69f8a.yml
+[11:25:34] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\1a755fa0-27ef-3f48-9699-2b38b8395e45.yml
+[11:25:35] [Craft Scheduler Thread - 13/INFO]: [ChestSort] You are using the latest version of ChestSort.
+[11:25:35] [Craft Scheduler Thread - 8/INFO]: [PlaceholderAPI] 168 placeholder expansions are available on the cloud.
+[11:25:43] [Server thread/INFO]: ÄãÊäÈëµÄÃüÁî²»ÕýÈ·¡£
+[11:25:44] [Server thread/INFO]: CONSOLE issued server command: /gc 
+[11:25:44] [Server thread/INFO]: ÔËÐÐÊ±¼ä: 1 ·ÖÖÓ 3 Ãë
+[11:25:44] [Server thread/INFO]: µ±Ç°·þÎñÆ÷ TPS = 20
+[11:25:44] [Server thread/INFO]: ×î´óÄÚ´æ: 6,144 MB.
+[11:25:44] [Server thread/INFO]: ÒÑ·ÖÅäÄÚ´æ: 6,144 MB.
+[11:25:44] [Server thread/INFO]: ¿ÕÏÐÄÚ´æ: 3,857 MB
+[11:25:44] [Server thread/INFO]: World "world": 225 Çø¿é, 30 ÊµÌå, 7 tiles.
+[11:25:44] [Server thread/INFO]: Nether "world_nether": 225 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:25:44] [Server thread/INFO]: The End "world_the_end": 225 Çø¿é, 21 ÊµÌå, 23 tiles.
+[11:25:44] [Server thread/INFO]: World "spawn": 0 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:25:44] [Server thread/INFO]: World "plotsquared": 0 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:25:44] [Server thread/INFO]: World "residence": 0 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:28:45] [User Authenticator #1/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[11:28:46] [Server thread/INFO]: God_KZM[/127.0.0.1:5993] logged in with entity id 53 at ([spawn]19.976649060593996, 59.0, -5.256152733575158)
+[11:28:46] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\4e7da002-22ca-4bd9-805c-deb061dc5f14.yml
+[11:28:49] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[11:28:49] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[11:28:49] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[11:28:49] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[11:28:49] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[11:28:53] [Server thread/INFO]: God_KZM issued server command: /deop
+[11:28:56] [Server thread/INFO]: God_KZM issued server command: /deop God_KZM
+[11:28:56] [Server thread/INFO]: [God_KZM: Made God_KZM no longer a server operator]
+[11:29:02] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[11:29:02] [Server thread/INFO]: God_KZM left the game
+[11:29:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@3e47ce3a[id=<null>,name=God_KZM,properties={},legacy=false] (/127.0.0.1:6018) lost connection: Disconnected
+[11:29:26] [User Authenticator #1/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[11:29:27] [Server thread/INFO]: God_KZM[/127.0.0.1:6030] logged in with entity id 83 at ([spawn]29.015336983364502, 60.5, -23.747605972311277)
+[11:29:47] [Server thread/INFO]: God_KZM issued server command: /kits tools
+[11:30:00] [Server thread/INFO]: God_KZM issued server command: /rtp world world
+[11:30:06] [Server thread/INFO]: God_KZM issued server command: /rtp world world
+[11:30:16] [Server thread/INFO]: [EntityTrackerFixer] Untracked 8 entities in world
+[11:30:16] [Server thread/INFO]: [EntityTrackerFixer] Untracked 0 entities in world_nether
+[11:30:16] [Server thread/INFO]: [EntityTrackerFixer] Untracked 15 entities in world_the_end
+[11:30:56] [ForkJoinPool.commonPool-worker-6/INFO]: --------- µØÆ¤ÏµÍ³ °ïÖú ---------
+/plot help claiming - Claiming
+/plot help teleport - Teleport
+/plot help protection - Protection
+/plot help chat - Chat
+/plot help web - Web
+/plot help cosmetic - Cosmetic
+/plot help info - Info
+/plot help debug - Debug
+/plot help admin - Admin
+/plot help all - Display all commands
+--------- µØÆ¤ÏµÍ³ °ïÖú ---------
+[11:30:58] [Server thread/INFO]: CONSOLE issued server command: /tp 
+[11:30:58] [Server thread/INFO]: Teleport to a player.
+[11:30:58] [Server thread/INFO]: /tp <player> [otherplayer]
+[11:31:00] [Server thread/WARN]: God_KZM was kicked due to keepalive timeout!
+[11:31:00] [Server thread/INFO]: God_KZM lost connection: Timed out
+[11:31:00] [Server thread/INFO]: God_KZM left the game
+[11:31:00] [Server thread/WARN]: handleDisconnection() called twice
+[11:31:02] [Server thread/INFO]: ÄãÊäÈëµÄÃüÁî²»ÕýÈ·¡£
+[11:31:07] [Server thread/INFO]: CONSOLE issued server command: /gc 
+[11:31:07] [Server thread/INFO]: ÔËÐÐÊ±¼ä: 6 ·ÖÖÓ 26 Ãë
+[11:31:07] [Server thread/INFO]: µ±Ç°·þÎñÆ÷ TPS = 20
+[11:31:07] [Server thread/INFO]: ×î´óÄÚ´æ: 6,144 MB.
+[11:31:07] [Server thread/INFO]: ÒÑ·ÖÅäÄÚ´æ: 6,144 MB.
+[11:31:07] [Server thread/INFO]: ¿ÕÏÐÄÚ´æ: 4,202 MB
+[11:31:07] [Server thread/INFO]: World "world": 225 Çø¿é, 8 ÊµÌå, 7 tiles.
+[11:31:07] [Server thread/INFO]: Nether "world_nether": 225 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:31:07] [Server thread/INFO]: The End "world_the_end": 225 Çø¿é, 21 ÊµÌå, 23 tiles.
+[11:31:07] [Server thread/INFO]: World "spawn": 0 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:31:07] [Server thread/INFO]: World "plotsquared": 0 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:31:07] [Server thread/INFO]: World "residence": 0 Çø¿é, 0 ÊµÌå, 0 tiles.
+[11:31:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: *20.0, *20.0, *20.0
+[11:33:02] [Craft Scheduler Thread - 14/INFO]: [ExploitFixer] Cleared unused cached players!
+[11:58:12] [User Authenticator #2/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[11:58:13] [Server thread/INFO]: God_KZM[/127.0.0.1:7559] logged in with entity id 241 at ([world]362.18216409031777, 64.0, 407.69999998807907)
+[11:59:56] [Server thread/INFO]: God_KZM issued server command: /plot auto
+[12:00:34] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[12:00:34] [Server thread/INFO]: God_KZM left the game
+[12:01:25] [User Authenticator #3/INFO]: Disconnecting /127.0.0.1:7705: Failed to verify username!
+[12:01:25] [User Authenticator #3/ERROR]: Username 'God_KZM' tried to join with an invalid session
+[12:01:25] [Server thread/INFO]: /127.0.0.1:7705 lost connection: Failed to verify username!
+[12:01:28] [User Authenticator #4/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[12:01:29] [Server thread/INFO]: God_KZM[/127.0.0.1:7702] logged in with entity id 353 at ([spawn]18.233590306494996, 59.0, -9.636014639629165)
+[12:05:57] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[12:05:57] [Server thread/INFO]: God_KZM left the game
+[12:08:15] [User Authenticator #5/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[12:08:15] [Server thread/INFO]: God_KZM[/127.0.0.1:8033] logged in with entity id 384 at ([spawn]13.819329903325485, 57.0, -17.396380047067616)
+[12:08:25] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[12:08:25] [Server thread/INFO]: God_KZM left the game
+[12:10:32] [Craft Scheduler Thread - 77/INFO]: [ExploitFixer] Cleared unused cached players!
+[12:10:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@7fca6b23[id=<null>,name=God_KZM,properties={},legacy=false] (/127.0.0.1:8129) lost connection: Disconnected
+[12:11:03] [User Authenticator #6/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[12:11:03] [Server thread/INFO]: God_KZM[/127.0.0.1:8185] logged in with entity id 414 at ([spawn]16.5, 59.0, -5.5)
+[12:13:27] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[12:13:27] [Server thread/INFO]: God_KZM left the game
+[12:18:02] [Craft Scheduler Thread - 93/INFO]: [ExploitFixer] Cleared unused cached players!
+[12:18:52] [User Authenticator #7/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[12:18:52] [Server thread/INFO]: God_KZM[/127.0.0.1:8551] logged in with entity id 534 at ([spawn]22.96627199816185, 59.5, -3.864384532609165)
+[12:18:54] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[12:18:54] [Server thread/INFO]: God_KZM left the game
+[12:19:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@2551b13f[id=<null>,name=God_KZM,properties={},legacy=false] (/127.0.0.1:8579) lost connection: Disconnected
+[12:19:11] [User Authenticator #7/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[12:19:11] [Server thread/INFO]: God_KZM[/127.0.0.1:8585] logged in with entity id 564 at ([spawn]16.5, 59.0, -5.5)
+[12:23:35] [Server thread/INFO]: God_KZM issued server command: /rtp world world
+[12:24:46] [Server thread/INFO]: God_KZM issued server command: /spawn
+[12:28:17] [Server thread/INFO]: God_KZM issued server command: /spawn
+[12:28:22] [Server thread/WARN]: God_KZM moved too quickly! -16.395095049068964,-9.0,-10.183001251499597
+[12:28:53] [Server thread/INFO]: God_KZM issued server command: /plot auto
+[12:29:02] [Server thread/INFO]: [ChestCommands] Plugin reloaded.
+[12:29:04] [Server thread/INFO]: God_KZM issued server command: /plot visit
+[12:30:01] [Server thread/INFO]: God_KZM issued server command: /mv tp world_nether
+[12:30:05] [Server thread/INFO]: God_KZM issued server command: /mvconfirm
+[12:30:05] [Server thread/INFO]: God_KZM has made the advancement [We Need to Go Deeper]
+[12:30:09] [Server thread/INFO]: [IllegalStack] -God_KZM has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=world_nether},x=1.8352657870854392,y=128.0,z=4.0882577479602915,pitch=50.999992,yaw=-124.65007}
+[12:30:09] [Server thread/INFO]: [IllegalStack] -God_KZM has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=world_nether},x=1.597106418076434,y=128.7531999805212,z=4.192852975489046,pitch=39.29999,yaw=-180.15001}
+[12:30:26] [Server thread/INFO]: Made God_KZM a server operator
+[12:30:29] [Server thread/INFO]: God_KZM issued server command: /gm 3
+[12:30:38] [Server thread/INFO]: God_KZM issued server command: /spawn
+[12:31:13] [Server thread/INFO]: God_KZM issued server command: /mvsetspawn
+[12:31:24] [Server thread/INFO]: God_KZM issued server command: /back
+[12:31:31] [Server thread/INFO]: God_KZM issued server command: /back
+[12:31:37] [Server thread/INFO]: God_KZM issued server command: /back
+[12:31:49] [Server thread/INFO]: God_KZM issued server command: /back
+[12:31:51] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:31:57] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:31:59] [Server thread/INFO]: God_KZM issued server command: /back
+[12:32:00] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:32:30] [Server thread/INFO]: God_KZM issued server command: /clear
+[12:32:54] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:33:13] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:33:16] [Server thread/INFO]: God_KZM issued server command: /back
+[12:33:16] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:33:39] [Server thread/INFO]: God_KZM issued server command: /gm 0
+[12:34:43] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:34:58] [Server thread/INFO]: God_KZM issued server command: /spawn
+[12:35:26] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:35:41] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:35:45] [Server thread/INFO]: God_KZM issued server command: /gm 0
+[12:35:46] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:35:59] [Server thread/INFO]: God_KZM issued server command: /gm 0
+[12:36:29] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[12:36:34] [Server thread/INFO]: God_KZM issued server command: /spawn
+[12:36:38] [Server thread/INFO]: God_KZM issued server command: /fly
+[12:37:19] [Server thread/INFO]: God_KZM issued server command: /mvsetspawn
+[12:37:28] [Server thread/INFO]: God_KZM issued server command: /back
+[12:38:03] [Server thread/INFO]: God_KZM issued server command: /back
+[12:38:29] [Server thread/INFO]: God_KZM issued server command: /back
+[12:38:39] [Server thread/INFO]: God_KZM issued server command: /back
+[12:38:52] [Server thread/INFO]: God_KZM issued server command: /mv tp world_nether
+[12:39:03] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[12:39:03] [Server thread/INFO]: God_KZM left the game
+[12:40:32] [Craft Scheduler Thread - 110/INFO]: [ExploitFixer] Cleared unused cached players!
+[13:02:18] [User Authenticator #8/INFO]: UUID of player fantasy_huan is d3e0cb99-8bbe-4466-9623-8d31af78d6b6
+[13:02:18] [Server thread/INFO]: fantasy_huan[/127.0.0.1:10129] logged in with entity id 1631 at ([world]111.5, 64.0, -260.5)
+[13:02:18] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\d3e0cb99-8bbe-4466-9623-8d31af78d6b6.yml
+[13:02:18] [Server thread/INFO]: fantasy_huan has made the advancement [Getting an Upgrade]
+[13:02:27] [Async Chat Thread - #0/INFO]: [Ö÷³ÇÊÀ½ç]<fantasy_huan> = - =
+[13:05:11] [Server thread/INFO]: fantasy_huan has made the advancement [The End?]
+[13:05:11] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[13:05:11] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[13:05:33] [Server thread/INFO]: fantasy_huan issued server command: /rtp world world
+[13:05:52] [Server thread/INFO]: fantasy_huan issued server command: /
+[13:06:03] [Server thread/INFO]: fantasy_huan issued server command: /plot visit
+[13:06:21] [Server thread/INFO]: fantasy_huan issued server command: /plot au
+[13:06:29] [Server thread/INFO]: fantasy_huan issued server command: /plot auto
+[13:07:49] [Server thread/INFO]: fantasy_huan issued server command: /rtp world world
+[13:09:39] [Server thread/INFO]: fantasy_huan issued server command: /mcscoreboard keep
+[13:10:13] [Server thread/INFO]: fantasy_huan issued server command: /mcscoreboard clear
+[13:14:47] [Server thread/INFO]: fantasy_huan issued server command: /tpa M
+[13:14:49] [Server thread/INFO]: fantasy_huan issued server command: /tpa M
+[13:14:53] [Server thread/INFO]: fantasy_huan issued server command: /tpa m
+[13:15:06] [Server thread/INFO]: fantasy_huan issued server command: /tpa Mr_TCG
+[13:15:25] [Server thread/INFO]: fantasy_huan has made the advancement [Monster Hunter]
+[13:15:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@39d79761[id=<null>,name=Mr_TCG,properties={},legacy=false] (/127.0.0.1:10603) lost connection: Disconnected
+[13:15:46] [User Authenticator #9/INFO]: UUID of player Mr_TCG is de9b3284-dd7a-4ba5-84e7-d78d6ed2cc57
+[13:15:46] [Server thread/INFO]: Mr_TCG[/127.0.0.1:10613] logged in with entity id 2369 at ([world]113.5, 65.0, -247.5)
+[13:15:46] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\de9b3284-dd7a-4ba5-84e7-d78d6ed2cc57.yml
+[13:15:46] [Server thread/INFO]: Mr_TCG has made the advancement [Getting an Upgrade]
+[13:16:22] [Server thread/INFO]: Mr_TCG issued server command: /plot visit
+[13:16:33] [Server thread/INFO]: Mr_TCG issued server command: /plot visit
+[13:16:34] [Server thread/INFO]: fantasy_huan issued server command: /plot visit
+[13:16:46] [Server thread/INFO]: fantasy_huan issued server command: /tpa Mr_TCG
+[13:16:51] [Server thread/INFO]: Mr_TCG issued server command: /tpaccept
+[13:16:56] [Server thread/INFO]: Mr_TCG issued server command: /plot visit
+[13:17:05] [Async Chat Thread - #1/INFO]: [Ö÷³ÇÊÀ½ç]<fantasy_huan> »¶Ó­Ð¡°×
+[13:17:19] [Server thread/INFO]: Mr_TCG issued server command: /plot auto
+[13:17:28] [Server thread/INFO]: fantasy_huan issued server command: /tpa Mr_TCG
+[13:17:32] [Server thread/INFO]: Mr_TCG issued server command: /tpaccept
+[13:18:01] [Async Chat Thread - #1/INFO]: [µØÆ¤ÊÀ½ç]<fantasy_huan> ÓÐµØÍ¼ÂðÄã
+[13:18:19] [Async Chat Thread - #1/INFO]: [µØÆ¤ÊÀ½ç]<fantasy_huan> ÎÒÔÚÄã¼Ò¸ô±Ú= - =
+[13:18:36] [Server thread/INFO]: fantasy_huan lost connection: Disconnected
+[13:18:36] [Server thread/INFO]: fantasy_huan left the game
+[13:18:43] [User Authenticator #10/INFO]: UUID of player fantasy_huan is d3e0cb99-8bbe-4466-9623-8d31af78d6b6
+[13:18:43] [Server thread/INFO]: fantasy_huan[/127.0.0.1:10702] logged in with entity id 2451 at ([plotsquared]-156.21924947094, 63.0, 18.77789764873453)
+[13:18:49] [Server thread/INFO]: fantasy_huan issued server command: /back
+[13:19:09] [Server thread/INFO]: fantasy_huan issued server command: /plot
+[13:19:31] [Server thread/INFO]: fantasy_huan issued server command: /plot help all
+[13:19:37] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 2
+[13:19:41] [Server thread/INFO]: Mr_TCG issued server command: /rtp world world
+[13:19:42] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 3
+[13:19:44] [Server thread/INFO]: Mr_TCG issued server command: /rtp world world
+[13:19:44] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 4
+[13:19:48] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 5
+[13:19:52] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 6
+[13:19:54] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 7
+[13:19:57] [Server thread/INFO]: fantasy_huan issued server command: /plot help all 1
+[13:20:11] [Server thread/INFO]: fantasy_huan issued server command: /plot visit
+[13:20:32] [Server thread/INFO]: Mr_TCG has made the advancement [Stone Age]
+[13:20:40] [Server thread/INFO]: fantasy_huan issued server command: /rtp world world
+[13:20:58] [Server thread/INFO]: fantasy_huan has made the advancement [Stone Age]
+[13:20:58] [Server thread/INFO]: Mr_TCG issued server command: /plot visit
+[13:21:09] [Server thread/INFO]: Mr_TCG issued server command: /mv tp world_the_end
+[13:21:09] [Server thread/INFO]: Mr_TCG has made the advancement [The End?]
+[13:21:16] [Server thread/INFO]: fantasy_huan issued server command: /
+[13:21:20] [Server thread/INFO]: fantasy_huan issued server command: /plot visit
+[13:21:31] [Server thread/INFO]: Mr_TCG has made the advancement [Monster Hunter]
+[13:21:44] [Server thread/INFO]: Mr_TCG has made the advancement [Remote Getaway]
+[13:22:11] [Server thread/WARN]: Mr_TCG moved too quickly! 6.739991182362928,-3.0,7.237630927420504
+[13:22:24] [Server thread/INFO]: fantasy_huan issued server command: /tpa Mr_TCG
+[13:22:29] [Server thread/INFO]: Mr_TCG issued server command: /tpaccept
+[13:22:35] [Async Chat Thread - #2/INFO]: [µØÆ¤ÊÀ½ç]<fantasy_huan> ¶î
+[13:22:38] [Server thread/INFO]: fantasy_huan issued server command: /tpa Mr_TCG
+[13:22:42] [Server thread/INFO]: Mr_TCG issued server command: /tpaccept
+[13:23:01] [Async Chat Thread - #2/INFO]: [Ö÷³ÇÊÀ½ç]<fantasy_huan> ÎÒ
+[13:23:03] [Async Chat Thread - #2/INFO]: [Ö÷³ÇÊÀ½ç]<fantasy_huan> £¡
+[13:23:07] [Server thread/INFO]: fantasy_huan issued server command: /back
+[13:23:40] [Server thread/INFO]: fantasy_huan lost connection: Disconnected
+[13:23:40] [Server thread/INFO]: fantasy_huan left the game
+[13:24:05] [Server thread/WARN]: Mr_TCG moved too quickly! 7.384671608573171,1.0,7.976981517856018
+[13:24:21] [Server thread/INFO]: Mr_TCG has made the advancement [The City at the End of the Game]
+[13:25:32] [Craft Scheduler Thread - 148/INFO]: [ExploitFixer] Cleared unused cached players!
+[13:25:40] [Server thread/INFO]: Mr_TCG has made the advancement [Suit Up]
+[13:25:47] [Server thread/INFO]: Mr_TCG has made the advancement [Acquire Hardware]
+[13:26:21] [Server thread/INFO]: Mr_TCG issued server command: /back
+[13:27:14] [Server thread/INFO]: Spawned KillAura Npc for Mr_TCG (100 ticks)
+[13:27:52] [Server thread/INFO]: Mr_TCG issued server command: /back
+[13:30:16] [Server thread/INFO]: CONSOLE issued server command: /list 
+[13:30:16] [Server thread/INFO]: µ±Ç°ÓÐ 1 ¸öÍæ¼ÒÔÚÏß,×î´óÔÚÏßÈËÊýÎª 39 ¸öÍæ¼Ò.
+[13:30:16] [Server thread/INFO]: default: Mr_TCG
+[13:31:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@cc90972[id=<null>,name=God_KZM,properties={},legacy=false] (/127.0.0.1:11272) lost connection: Disconnected
+[13:31:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@543fab6e[id=<null>,name=God_KZM,properties={},legacy=false] (/127.0.0.1:11280) lost connection: Disconnected
+[13:31:13] [User Authenticator #11/INFO]: Disconnecting /127.0.0.1:11272: Failed to verify username!
+[13:31:13] [User Authenticator #11/ERROR]: Username 'God_KZM' tried to join with an invalid session
+[13:31:24] [User Authenticator #12/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[13:31:24] [Server thread/INFO]: God_KZM[/127.0.0.1:11283] logged in with entity id 3789 at ([world_nether]-24.30000001192093, 61.200000047683716, -17.405204765430682)
+[13:31:33] [Server thread/INFO]: God_KZM issued server command: /tpa God_KZM
+[13:31:36] [Server thread/INFO]: God_KZM issued server command: /tpa God_KZM?
+[13:31:38] [Async Chat Thread - #3/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ?
+[13:31:40] [Server thread/INFO]: God_KZM issued server command: /deop God_KZM
+[13:31:41] [Server thread/INFO]: [God_KZM: Made God_KZM no longer a server operator]
+[13:31:43] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[13:31:43] [Server thread/INFO]: God_KZM left the game
+[13:32:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@67c889c7[id=<null>,name=God_KZM,properties={},legacy=false] (/127.0.0.1:11316) lost connection: Disconnected
+[13:32:12] [User Authenticator #12/INFO]: UUID of player God_KZM is 4e7da002-22ca-4bd9-805c-deb061dc5f14
+[13:32:12] [Server thread/INFO]: God_KZM[/127.0.0.1:11333] logged in with entity id 3821 at ([spawn]19.770725041899244, 60.0, -22.467725874664588)
+[13:32:21] [Server thread/INFO]: God_KZM issued server command: /kits toos
+[13:32:23] [Server thread/INFO]: God_KZM issued server command: /kits tools
+[13:32:23] [Server thread/INFO]: Mr_TCG issued server command: /spawn
+[13:32:33] [User Authenticator #12/INFO]: UUID of player Donalo_ is 38bb6977-fd40-4ea9-b72c-495c9000f6f6
+[13:32:33] [Server thread/INFO]: [AntiAttack] ÓÉÓÚ²å¼þÊý¾Ý¿â¼ÇÂ¼ÈËÊý²»×ã,·ÀÓùÏµÍ³ÔÝÊ±²»»á¿ªÆô,´ý²å¼þ°²×°ºó¹ýÒ»¶ÎÊ±¼ä¼´¿ÉÕý³£¹¤×÷...
+[13:32:33] [Server thread/INFO]: Donalo_[/127.0.0.1:11355] logged in with entity id 3822 at ([world]108.5, 64.0, -250.5)
+[13:32:33] [pool-39-thread-1/INFO]: [Essentials] ´´½¨¿ÕµÄÅäÖÃ:D:\God_KZM\Software\Minecraft\LostCity-Server\plugins\Essentials\userdata\38bb6977-fd40-4ea9-b72c-495c9000f6f6.yml
+[13:32:33] [Server thread/INFO]: Donalo_ has made the advancement [Getting an Upgrade]
+[13:32:45] [Server thread/INFO]: Donalo_ issued server command: /rtp world world
+[13:32:54] [Server thread/INFO]: Donalo_ issued server command: /rtp world world
+[13:33:02] [Async Chat Thread - #4/INFO]: [Ä©Ó°ÊÀ½ç]<God_KZM> ÑÓ³Ù»¹ºÃÂð£¿
+[13:33:13] [Async Chat Thread - #4/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> »¹ºÃ°É
+[13:33:13] [Server thread/INFO]: Donalo_ has made the advancement [Monster Hunter]
+[13:33:22] [Async Chat Thread - #4/INFO]: [Ä©Ó°ÊÀ½ç]<God_KZM> ¸Ð¾õ²»´í£¬0ms
+[13:33:41] [Server thread/INFO]: CONSOLE issued server command: /kits tools
+[13:33:41] [Server thread/INFO]: ¹¤¾ß°ü:Tools
+[13:33:45] [Server thread/INFO]: CONSOLE issued server command: /kits tools God_KZM
+[13:33:45] [Server thread/INFO]: ¸øÓèÀñ°ü tools ¸øÍæ¼Ò God_KZM.
+[13:34:16] [Server thread/INFO]: Donalo_ lost connection: Disconnected
+[13:34:16] [Server thread/INFO]: Donalo_ left the game
+[13:35:08] [Server thread/INFO]: Mr_TCG lost connection: Disconnected
+[13:35:08] [Server thread/INFO]: Mr_TCG left the game
+[13:35:33] [User Authenticator #13/INFO]: UUID of player Mr_TCG is de9b3284-dd7a-4ba5-84e7-d78d6ed2cc57
+[13:35:33] [Server thread/INFO]: Mr_TCG[/127.0.0.1:11454] logged in with entity id 4064 at ([spawn]14.528401162681728, 59.0, -0.8036933123328935)
+[13:36:45] [Server thread/INFO]: God_KZM issued server command: /tpa Mr_TCG
+[13:36:50] [Server thread/INFO]: Mr_TCG issued server command: /tpaccept
+[13:37:06] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ?
+[13:37:11] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> ..
+[13:37:59] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ??
+[13:38:19] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ×ßÈ¥Íâµº
+[13:38:22] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> ºÃÆæ Ö÷³ÇÏÂÃæµÄÖ©ÖëÍøµ½µ×ÊÇÊ²Ã´
+[13:38:23] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> £¿
+[13:38:31] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ?
+[13:38:34] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ÄÄ¶ù
+[13:38:39] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> Õâ
+[13:38:55] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> Ã»¿´¼ûÑ½
+[13:39:12] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> Õâ²»ÊÇÎÄ×ÖÂð
+[13:39:15] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> Õâ
+[13:39:23] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> ..
+[13:39:24] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> 233
+[13:39:39] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ×ßÈ¥Íâµº ?
+[13:39:46] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> ²»È¥ÁË ÀÛ
+[13:39:50] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> hah
+[13:39:52] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ¹þ¹þ¹þ
+[13:40:00] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<Mr_TCG> ÐÄÒÑ¾­ËÀÁË
+[13:40:13] [Async Chat Thread - #5/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> ÎÒÈ¥¹ä¹ä
+[13:40:32] [Craft Scheduler Thread - 165/INFO]: [ExploitFixer] Cleared unused cached players!
+[13:40:41] [Server thread/INFO]: God_KZM issued server command: /gm 1
+[13:40:41] [Server thread/INFO]: [Essentials] God_KZM ±»¾Ü¾øÊ¹ÓÃÃüÁî
+[13:40:43] [Server thread/INFO]: CONSOLE issued server command: /gm 1
+[13:40:43] [Server thread/INFO]: Change player gamemode.
+[13:40:43] [Server thread/INFO]: /gm <survival|creative|adventure|spectator> [player]
+[13:40:45] [Server thread/INFO]: CONSOLE issued server command: /gm 1
+[13:40:45] [Server thread/INFO]: Change player gamemode.
+[13:40:45] [Server thread/INFO]: /gm <survival|creative|adventure|spectator> [player]
+[13:40:47] [Server thread/INFO]: CONSOLE issued server command: /gm 1 God_KZM
+[13:40:47] [Server thread/INFO]: ÒÑÉèÖÃGod_KZMµÄÓÎÏ·Ä£Ê½Îª´´ÔìÄ£Ê½.
+[13:40:58] [Server thread/INFO]: Made God_KZM a server operator
+[13:41:04] [Server thread/INFO]: God_KZM issued server command: /gm 0
+[13:41:09] [Server thread/INFO]: God_KZM issued server command: /deop God_KZM
+[13:41:09] [Server thread/INFO]: [God_KZM: Made God_KZM no longer a server operator]
+[13:42:12] [Server thread/INFO]: God_KZM issued server command: /back
+[13:43:47] [Server thread/INFO]: Mr_TCG issued server command: /spawn
+[13:44:53] [Server thread/INFO]: God_KZM issued server command: /rtp
+[13:45:02] [Server thread/INFO]: God_KZM issued server command: /back
+[13:45:08] [Server thread/INFO]: God_KZM issued server command: /back
+[13:45:19] [Server thread/WARN]: God_KZM moved too quickly! 3.3044008059518646,-13.0,-1.669885481993095
+[13:45:38] [Server thread/WARN]: Mr_TCG moved too quickly! 4.905649349159013,-9.0,1.67889578006535
+[13:45:41] [Server thread/INFO]: God_KZM issued server command: /spawn
+[13:45:45] [Server thread/INFO]: God_KZM issued server command: /mv tp world_the_end
+[13:47:02] [Server thread/INFO]: God_KZM issued server command: /ÀûÈÐÍ»´Ì
+[13:47:20] [Server thread/INFO]: Mr_TCG issued server command: /spawn
+[13:47:46] [Server thread/INFO]: Mr_TCG lost connection: Disconnected
+[13:47:46] [Server thread/INFO]: Mr_TCG left the game
+[13:48:02] [Craft Scheduler Thread - 184/INFO]: [ExploitFixer] Cleared unused cached players!
+[13:52:30] [Server thread/INFO]: God_KZM issued server command: /back
+[13:56:58] [Server thread/WARN]: God_KZM moved too quickly! 6.5178766386120515,1.0,7.534116607940632
+[13:59:51] [Server thread/INFO]: God_KZM issued server command: /back
+[14:00:45] [Server thread/INFO]: God_KZM issued server command: /suicide
+[14:00:50] [Async Chat Thread - #6/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> wvnm
+[14:00:52] [Async Chat Thread - #6/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> wnm
+[14:00:54] [Async Chat Thread - #6/INFO]: [Ö÷³ÇÊÀ½ç]<God_KZM> c
+[14:03:23] [Server thread/INFO]: God_KZM lost connection: Disconnected
+[14:03:23] [Server thread/INFO]: God_KZM left the game
+[14:04:03] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[14:04:03] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[14:04:03] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[14:04:03] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[14:04:03] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!

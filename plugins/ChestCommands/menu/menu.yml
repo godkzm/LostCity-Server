@@ -59,7 +59,7 @@ item-5-2:
 item-6-2:
   POSITION-X: 6
   POSITION-Y: 2
-  COMMAND: plot auto
+  COMMAND: plot visit
   NAME: "&6&l\u70B9\u6211\u4F20\u9001\u5230\u4F60\u7684\u5730\u76AE"
   LORE:
   - "&6&l\u6CA1\u6709\u5730\u76AE\uFF1F"

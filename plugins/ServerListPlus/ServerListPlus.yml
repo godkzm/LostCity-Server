@@ -53,10 +53,10 @@ Default:
 Personalized:
   Description:
   - |-
-    &aMinecraft LostCity &7|  &e嗨！ %player%！
-    &7如果你有什么疑问，您可到官方论坛去提问！
+    &aMinecraft LostCity Network
+    &7如果你有什么疑问，您可到官方Q群去提问！
   - |-
-    &aMinecraft LostCity &7|  &e嗨！ %player%！
+    &aMinecraft LostCity Network
     &e我们现已更新至 Minecraft 1.15.2&e!
     Favicon:
     # The file names here should be relative to the plugin folder.
@@ -65,7 +65,7 @@ Personalized:
   Players:
     Hover:
     - |-
-      &a欢迎回来！ %player%&a！
+      &a欢迎回来！
       &a现在有 &e&l%online% &a名玩家正在服务器上游玩！
   Favicon:
     # The file names here should be relative to the plugin folder.
